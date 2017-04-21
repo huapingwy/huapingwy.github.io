@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>event</title>
+</head>
+  <style>
+    div {
+      height: 100px;
+      width: 100px;
+      background: #eee;
+      position: absolute;
+    }
+  </style>
+<body>
+  <div class="div1"></div>
+
+  <script>
+
+    document.body.addEventListener('click', function (ev) {
+      console.log(ev.target);
+    },false);
+
+
+
+  </script>
+</body>
+</html>
