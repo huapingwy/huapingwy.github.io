@@ -68,3 +68,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: git@github.com:huapingwy/huapingwy.github.io.git
+  branch: master
