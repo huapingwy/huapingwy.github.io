@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jquery.fullpage.css">
+		<link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery.fullpage.js"></script>
+   <script src="js/jquery.easing.1.3.js"></script>
+   <script src="js/scroll.js"></script>
+</head>
+<body>
+	<div class="menu-box">
+		<div class="bg"></div>
+		<ul class="menu" id="menu">
+			<li data-menuanchor="page1" class="active"><a href="#page1">外观</a></li>
+			<li data-menuanchor="page2"><a href="#page2">操控</a></li>
+			<li data-menuanchor="page3"><a href="#page3">内饰</a></li>
+			<li data-menuanchor="page4"><a href="#page4">安全</a></li>
+			<li data-menuanchor="page5"><a href="#page5">观看视频</a></li>
+			<li data-menuanchor="page6"><a href="#page6">了解车型</a></li>
+			<li data-menuanchor="page7"><a href="#page7">配置价格</a></li>
+			<li data-menuanchor="page8" class="btn-icon"><a href="#page8">预约购买</a></li>
+		</ul>
+	</div>
+	
+	<div id="app-page">
+		<div class="section section1">
+			<!-- <div class="section1-bg"><img src="image/main-bg-1.jpg" alt="" style="width: 100%"></div> -->
+			<div class="car-box">
+				<div class="xse-box" data-seat-init='{"left":"-9%","top":"7%","width":"55%"}' data-seat='{"left":"13%","top":"16%","width":"60%"}'>
+					<img src="image/xse.png" alt="" class="xse">
+					<img src="image/xse-lights.png" alt="" class="xse-lights">
+					<div class="detail">
+						<img src="image/xse-1.png" alt="" class="xse-1">
+						<img src="image/xse-2.png" alt="" class="xse-2">
+						<img src="image/xse-3.png" alt="" class="xse-3">
+						<img src="image/xse-4.png" alt="" class="xse-4">
+						<div class="xse-text-box">
+							<img src="image/xse-text.png" alt="" class="xse-text">
+							<img src="image/xse-arrow.png" alt="" class="xse-arrow1">
+						</div>
+					</div>
+				</div>
+
+				<div class="xle-box">
+					<img src="image/XLE.png" alt="" class="xle">
+					<img src="image/xle-lights.png" alt="" class="xle-lights">
+				</div>
+			</div>
+			
+			<div class="xle-detail">
+				
+				<img src="image/xle-text2.png" alt="" class="text-2">
+				<img src="image/xle-text3.png" alt="" class="text-3">
+				<div class="text-box">
+					<img src="image/xle-text.png" alt="" class="text">
+					<img src="image/xse-arrow.png" alt="" class="xle-arrow2">
+				</div>
+			</div>
+
+			<a href="javascript:" class="arrow-down-btn"><img src="image/arrow-down.png" alt=""></a>
+			<img src="image/xle-btn.png" alt="" class="xle-btn">
+			<img src="image/section1-title.png" alt="" class="title">
+			<img src="image/btn1.png" alt="" class="btn1">
+		</div>
+		<div class="section section2">
+			<div class="slide">
+				<div class="mark"></div>
+				<div class="car-box">
+					<img src="image/section2/car.png" alt="" class="car">
+					<img src="image/section2/wheel2.gif" alt="" class="wheel">
+					<img src="image/section2/wheel2.gif" alt="" class="wheel2">
+				</div>
+				<div class="desc1-box">
+					<img src="image/section2/1.png" alt="desc1" class="desc-1-img">
+					<div class="content-arrow-text">
+						<img src="image/xse-arrow.png" alt="">
+						<strong>突破设计美学</strong>
+						<span>流线型车身不仅动感十足，而且增强了驾驶稳定感</span>
+					</div>
+				</div>
+		
+				<div class="desc2-box">
+					<div class="text2">
+						<span style="text-align: left;">“千金难买重心低”</span>
+						<span> “带来很多好处，比如说像外型、引擎盖降低</span>
+						<span style="text-align: left;">······侧面看就非常饱满” </span>
+						<span style="text-align: right;">——大家车言论创始人  颜宇鹏</span>
+					</div>
+					<div class="content-arrow-text">
+						<img src="image/xse-arrow.png" alt="">
+						<strong>突破驾驶视野的界限</strong>
+						<span>采用低遮挡A柱、低引擎盖设计，改善了外后视位置，提供了更开阔的视野</span>
+					</div>
+					<div class="circle-box">
+						<div class="text1">低重心设计带来跑车般的驾姿</div>
+						<img src="image/section2/circle-1.png" alt="" class="circle1">
+						<img src="image/section2/circle-2.png" alt="" class="circle2">
+					</div>
+				</div>
+
+				<div class="desc3-box">
+					<div class="engine-box">
+						<img src="image/section2/engine.png" alt="" class="engine-1">
+						<div class="text-1">
+							<p>热效率<strong>40%</strong></p>
+							<p style="margin: 10px;">“肯定比我隔壁的车要高”</p>
+							<p style="text-align: right; font-size: 12px">—— 踢车帮创始人 夏东</p>
+						</div>
+						<p class="text-2">最大输出功率<strong>154kw</strong></p>
+						<p class="text-3"><strong>13:1</strong>高压缩比<span>媲美F1赛车</span></p>
+						<p class="text-4">全新 2.5L Dynamic Force Engine 发动机</p>
+						<div class="content-arrow-text">
+							<img src="image/xse-arrow.png" alt="">
+							<strong>突破引擎技术的壁垒</strong>
+							<span>全新自然吸气引擎，爆发更强动力</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="car-box-2">
+					<div class="engine-box-2">
+					<div class="text-5">
+						<p>全新 Driect Shift-8AT 变速箱</p>
+						<p style="font-size: 24px">全新自然吸气引擎，爆发更强动力</p>
+					</div>
+					<img src="image/section2/line-2.png" alt="" class="line-2">
+					<img src="image/section2/engine-2.png" alt="" class="engine-2">
+				</div>
+					<img src="image/section2/car.png" alt="" class="car-2">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="car-box-3">
+					<div class="engine-box-3">
+						<div class="text-6">
+							<p><strong>双叉臂式后悬挂系统</strong></p>
+							<p>采用新研发的减震器，兼顾驾乘舒适性的同时<br />提高了操控稳定性</p>
+						</div>
+						<img src="image/section2/line-4.png" alt="" class="line-3">
+						<img src="image/section2/engine-4.png" alt="" class="engine-3">
+					</div>
+					<div class="content-arrow-text">
+							<img src="image/xse-arrow.png" alt="">
+							<strong>突破引擎技术的壁垒</strong>
+							<span>全新自然吸气引擎，爆发更强动力</span>
+						</div>
+					<img src="image/section2/car.png" alt="" class="car-3">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="car-box-3 car-box-4">
+					<div class="engine-box-3 engine-box-4">
+						<div class="text-6">
+							<p><strong>高精度齿条并行式电动助力转向系统</strong></p>
+							<p>起步反应更加灵敏   爽快手感高精度<br />新开发的转向柱提升了刚性，让操控感更好</p>
+						</div>
+						<img src="image/section2/line-3.png" alt="" class="line-4">
+						<img src="image/section2/engine-3.png" alt="" class="engine-4">
+					</div>
+					
+					<img src="image/section2/car.png" alt="" class="car-3">
+				</div>
+			</div>
+			<div class="section1-bg"><img src="image/main-bg-2.jpg" alt=""></div>
+			
+
+			<a href="javascript:" class="arrow-down-btn"><img src="image/arrow-down.png" alt=""></a>
+		</div>
+		<div class="section section3 section4">
+			
+			<div class="slide">
+				<img src="image/section3/switch-3.png" class="switch-img">
+				<div class="mark"></div>
+				<div class="content-arrow-text">
+					<img src="image/xse-arrow.png" alt="">
+					<strong >突破驾驶视野的极限</strong>
+					<span>无法抑制的驾驶渴望，直抵内心</span>
+				</div>	
+			</div>
+			<div class="slide">
+				<img src="image/section3/switch-3.png" class="switch-img">
+			</div>
+			<div class="slide">
+				<img src="image/section3/switch-1.png" alt="" class="switch-img">
+			</div>
+			<div class="slide">
+				<img src="image/section3/switch-2.png" alt="" class="switch-img">
+			</div>
+			<div class="slide">
+				<div class="img-box">
+					<img src="image/section3/switch-3.png" alt="" class="bg">
+					<img src="image/section3/2.png" alt="" class="img-2">
+					<img src="image/section3/arrow-1.png" alt="" class="arrow-1">
+					<img src="image/section3/arrow-2.png" alt="" class="arrow-2">
+					<img src="image/section3/arrow-3.png" alt="" class="arrow-3">
+					<img src="image/section3/4.png" alt="" class="img-4">
+					<div class="text-1">
+						<p><strong>丰田中国车型首次搭载</strong></p>
+						<p>三屏联动抬头显示</p>
+					</div>
+					<div class="text-2">
+						<p><strong>三区独立全自动空调</strong></p>
+						<p>NanoeTM纳米负离子发生器，开机一小时PM2.5祛除率高达98% </p>
+					</div>
+				</div>
+			</div>
+			<div class="slide">	
+				<div class="bg-box">
+					<span class="bg-night"></span>
+					<span class="bg-day"></span>
+					<span class="bg-spring"></span>
+					<span class="bg-summer"></span>
+					<span class="bg-autumn"></span>
+					<span class="bg-winter"></span>
+				</div>
+				<div class="img-5"></div>
+				<img src="image/section4/1.png" alt="" class="img-6">
+				<a href="javascript:" class="arrow-down-btn"><img src="image/arrow-down.png" alt=""></a>
+			</div>
+			<a href="javascript:" class="arrow-down-btn"><img src="image/arrow-down.png" alt=""></a>
+		</div>
+
+		<div class="section section5">
+			<!-- <div class="section1-bg"><img src="image/section5/bg-1.jpg"></div> -->
+			<img src="image/section5/tss.png" alt="" class="tss">
+			<div class="slide">
+				<div class="car-box">
+					<img src="../image/section5/bg-1.jpg" alt="" class="bg">
+					<img src="image/section5/car-1.png" alt="" class="car-1">
+					<div class="tip-box tip-box-1">
+						<span class="arrow"></span>
+						<div class="content">
+							<p>车辆搭载的单镜头能够监测车辆对于白色或黄色车道标记的位置，当汽车开始离开其车道而没有转向信号时，系统会通过仪表盘和蜂鸣器来对驾驶者进行警告</p>
+						</div>
+					</div>
+					<div class="tip-box tip-box-2">
+						<span class="arrow"></span>
+						<div class="content">
+							<p>系统通过检测周围灯光，包括街灯灯光、对面行进车辆车头灯光、前方同向行驶车辆尾灯灯光，并结合车速，自动判定并切换远光灯或近光灯，减少出现驾驶者忘记切换灯光模式的情况以及手动操作的不便</p>
+						</div>
+					</div>
+					<img src="image/section5/car-2.png" alt="" class="car-2">
+				</div>
+				<div class="nav">
+					<a href="" class="btn-1"><img src="image/section5/btn-1.png" alt=""></a>
+					<a href="" class="btn-2"><img src="image/section5/btn-2.png" alt=""></a>
+				</div>
+				<a href="javascript:" class="arrow-down-btn"><img src="image/arrow-down.png" alt=""></a>
+				<div class="text-1">
+					<p><strong>部分车型配备</strong></p>
+					<p>*在任何情况下，驾驶者都是车辆安全行驶的负责人，相关辅助系统不能代替驾驶者进行驾驶控制。</p>
+					<p>PCS预碰撞安全系统、DRCC动态雷达巡航控制系统、LDA车道偏离警示系统、AHB自动调节远光灯系统适用范围请参考《用户手册》</p>
+				</div>
+				<div class="content-arrow-text">
+					<img src="image/xse-arrow.png" alt="">
+					<strong>突破安全科技的视界</strong>
+					<span>匹配更先进的科技装备，时刻捍卫</span>
+				</div>
+			</div>
+			<div class="slide slide-2">
+				<div class="car-box-2">
+					<img src="image/section5/car-3.png" alt="" class="car-3">
+				</div>
+				<div class="text-box text-2">
+					<strong>PCS预碰撞安全系统</strong>
+					<p>使用毫米波雷达传感器和摄像机传感器，探测前方的其他车辆，可根据自车和前方车辆的位置、速度、预测行进路线和形式速度来判定危险，按时间先后通过警报声和显示器做出警告、启动预碰撞制动辅助和启动预碰撞制动，来尽可能减轻事故伤害。</p>
+				</div>
+				<div class="text-box text-3">
+					<strong>DRCC动态雷达巡航控制系统</strong>
+					<p>使用毫米波雷达传感器和单镜头摄像头探测前方车辆，辅助保持与车速相符的跟车距离，在高速公路等驾驶场合，减少驾驶员的驾驶负担。</p>
+				</div>
+				<div class="text-4">
+					<strong>部分车型配备</strong>
+					<p>*在任何情况下，驾驶者都是车辆安全行驶的负责人，相关辅助系统不能代替驾驶者进行驾驶控制。<br />PCS预碰撞安全系统、DRCC动态雷达巡航控制系统、LDA车道偏离警示系统、AHB自动调节远光灯系统适用范围请参考《用户手册》</p>
+				</div>
+			</div>
+			<div class="slide slide-3">
+				<div class="box left-box">
+					<img src="image/section5/car-4.png" alt="" class="car-4">
+					<img src="image/section5/bg-3.jpg" alt="" class="bg-3">
+					<div class="text-5">
+						<p>全系标配</p>
+						<p><strong>10SRS安全气囊</strong></p>
+					</div>
+				</div>
+				<div class="box center-box">
+					<div class="top-box">
+						<div class="text-6">
+							<p>全系标配</p>
+							<p>VSC车身稳定控制系统</p>
+						</div>
+						<img src="image/section5/6.png" alt="">
+					</div>
+					<div class="bottom-box">
+						<p>PVM全景监控系统</p>
+						<img src="image/section5/5.png" alt="">
+					</div>
+				</div>
+				<div class="box right-box">
+					<div class="text-6">
+						<p>全系标配</p>
+						<p><strong>HAC上坡启动辅助控制系统</strong></p>
+					</div>
+					<img src="image/section5/7.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="section section6">
+			<div class="video-box">
+				<a href="" class="close-btn">X</a>
+			</div>
+			<a href="" class="video-btn"><img src="image/section6/video-btn.png" alt=""></a>
+		</div>
+		<div class="section section7">
+			<div class="car-box">
+				<div class="car-bule">
+					<img src="image/section7/car-bule.png" alt="" class="car-img">
+					<img src="image/section7/text-bule.png" alt="" class="text text-bule">
+				</div>
+				
+				<div class="car-white">
+					<img src="image/section7/car-white.png" alt="" class="car-img">
+					<img src="image/section7/text-white.png" alt="" class="text text-white">
+				</div>
+				<div class="car-red">
+					<img src="image/section7/car-red.png" alt="" class="car-img">
+					<img src="image/section7/text-red.png" alt="" class="text text-red">
+				</div>
+			</div>
+		</div>
+		<div class="section section8">
+			<div class="info">
+				<ul class="nav">
+					<li class="active">
+						<div class="bg"></div>
+						<img src="image/section8/car-1.png" alt="">
+						<span>凯美瑞</span>
+					</li>
+					<li>
+						<img src="image/section8/car-2.png" alt="">
+						<span>凯美瑞运动</span>
+					</li>
+					<li>
+						<img src="image/section8/car-3.png" alt="">
+						<span>凯美瑞双擎</span>
+					</li>
+				</ul>
+				<div class="scroll" id="scroll2">
+			    <div class="scroll-move" id="scroll-move2">
+			    	<table class="table">
+							<thead>
+								<tr>
+									<th>车型</th>
+									<th>
+										<div class="title">
+											凯美瑞XLE<br />2.0E D-4S 精英版
+											<div class="arrow-box">
+												<span class="arrow up"></span>
+												<span class="arrow down"></span>
+											</div>
+										</div>
+										<span class="close"><img src="image/section8/close.png" alt=""></span>
+									</th>
+									<th>
+										<div class="title">
+											凯美瑞XLE<br />2.0G D-4S 领先版
+											<div class="arrow-box">
+												<span class="arrow up"></span>
+												<span class="arrow down"></span>
+											</div>
+										</div>
+										<span class="close"><img src="image/section8/close.png" alt=""></span>
+									</th>
+									<th>添加对比车型</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>官方指导价</td>
+									<td>187,800 元</td>
+									<td>195,800 元</td>
+									<td>195,800 元</td>
+								</tr>
+								<tr>
+									<th colspan="4" class="base">基本项目 <span class="arrow down"></span></th>
+								</tr>
+								<tr>
+									<td>长×宽×高(mm)</td>
+									<td>4850*1825*1480</td>
+									<td>4865*1825*1480</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>长×宽×高(mm)</td>
+									<td>4850*1825*1480</td>
+									<td>4865*1825*1480</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+			    </div>
+				</div>
+			</div>
+		</div>
+		<div class="section section9">
+			<div class="title">预约体验</div>
+			<div class="left-box">
+				<form action="" class="form">
+					<div class="form-group">
+						<label><span>*</span>您的姓名</label>
+						<div class="right">
+							<div class="mod">
+								<input type="text">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label><span>*</span>手机号码</label>
+						<div class="right">
+							<div class="mod">
+								<input type="text">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label><span>*</span>所在城市</label>
+						<div class="right">
+							<div class="mod">
+								<input type="text">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label><span>*</span>经销商：</label>
+						<div class="right">
+							<div class="mod">
+								<input type="text">
+							</div>
+						</div>
+					</div>
+						<div class="form-group">
+						<label><span>*</span>经销商地址：</label>
+						<div class="right">
+							<div class="mod">
+								<input type="text">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<p>我已将本人的个人信息提供给广汽丰田，并允许广汽丰田按照<a href="" style="color: #db000d">《保护消费者个人信息基本方针》</a>的规定，使用我提供的个人信息；并同意广汽丰田及其经销商向本人发送相关商业信息。</p>
+					</div>
+					<div class="form-group">
+						<button>确认提交</button>
+					</div>
+				</form>
+			</div>
+			<div class="right-box">
+				<img src="image/car-9.jpg" alt="" class="car-9">
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function () {
+			scroll({
+			  scrollMove: document.getElementById('scroll-move2'),
+			  scroll: document.getElementById('scroll2')
+			})
+			var curState = 1;
+			var curState2 = 1;
+			var mainBg1 = $('.section1-bg1');
+			var mainBg2 = $('.section1-bg2');
+
+			var section1 = $('.section1');
+			var s1CarBox = section1.find('.car-box')
+			var s1ArrowDownBtn = section1.find('.arrow-down-btn');
+			var s1XseBox = section1.find('.xse-box');
+			var xseBoxSeat = s1XseBox.data("seat");
+			var xseBoxSeatInit = s1XseBox.data('seat-init');
+			var s1XleBtn = section1.find('.xle-btn');
+			var s1Title = section1.find('.title');
+			var s1XleBox = section1.find('.xle-box');
+			var s1Xse1 = section1.find('.xse-1');
+			var s1Xse2 = section1.find('.xse-2');
+			var s1Xse3 = section1.find('.xse-3');
+			var s1Xse4 = section1.find('.xse-4');
+			var s1Text1 = section1.find('.text-1');
+			var s1Text2 = section1.find('.text-2');
+			var s1Text3 = section1.find('.text-3');
+			var s1XseText = section1.find('.xse-text');
+			var s1XseArrow1 = section1.find('.xse-arrow1');
+			var s1XseArrow2 = section1.find('.xse-arrow2');
+			var s1XseBtn = section1.find('.btn1');
+
+			var section2 = $('.section2');
+			var s2Mark = section2.find('.mark');
+			var s2CarBox = section2.find('.car-box');
+			var s2Car = section2.find('.car');
+			var s2Desc1Box = section2.find('.desc1-box');
+			var s2Desc2Box = section2.find('.desc2-box');
+			var s2Text3 = section2.find('.text3');
+			var s2Text2 = section2.find('.text2');
+			var s2Text1 = section2.find('.text1');
+			var s2Text3Content = s2Text3.find('.content');
+			var s2circleBox = section2.find('.circle-box')
+			var s2ArrowDownBtn = section2.find('.arrow-down-btn');
+			var s2Bg = section2.find('.section1-bg');
+			var s2Desc3Box = section2.find('.desc3-box');
+
+
+			var section3 = $('.section3');
+			var s3Bg = section3.find('.s3-bg');
+
+			s1ArrowDownBtn.on('click', function () {
+				switch(curState) {
+					case 1:
+						curState++;
+						s1XseBox.animate({
+							top: 36,
+							left: 600,
+							width: '53%',
+							opacity: 0
+						});
+						s1XseBtn.animate({
+							left: '-50px',
+							opacity: 0
+						}).hide();
+						setTimeout(function () {
+
+							s1XleBox.animate({
+								width: '140%',
+								marginBottom: '-11%',
+								left: '-9%'
+							});
+
+							s1CarBox.animate({
+								bottom: 0,
+								marginBottom: 0
+							})
+
+							$('.xle-detail .text-box').animate({
+								opacity: 1
+							})
+							s1Text1.animate({
+								left: 200,
+								opacity: 1
+							})
+							$('.xle-detail .text-2, .xle-detail .text-3').animate({
+								left: '2%',
+								opacity: 1
+							});
+						}, 100)
+					break;
+					default:
+						break;
+				}
+				
+			});
+
+			s1XleBtn.on('click', function () {
+				$(this).hide().css({right: '-300px'});
+				s1Xse3.animate({
+					opacity: 0
+				})
+				s1Xse4.animate({
+					opacity: 0
+				}, function () {
+					s1Xse1.animate({
+						right: 120,
+						opacity: 0
+					})
+					s1Xse2.animate({
+						right: '-198px',
+						opacity: 0
+					});
+					s1XseText.animate({
+						opacity: 0,
+						left: '-45px'
+					});
+					s1XseArrow1.animate({
+						opacity: 0
+					}, function () {
+						s1CarBox.animate({
+							right: 0,
+						});
+						s1XleBox.animate({
+							right: 0,
+							bottom: 0
+						})
+						s1XseBox.animate({
+							top: xseBoxSeatInit.top,
+							left: xseBoxSeatInit.left,
+							width: xseBoxSeatInit.width,
+							opacity: 1
+						}, function () {
+							s1XseBtn.show();
+						});
+					});
+				});
+			});
+
+			s1XseBtn.on('click', function () {
+				$(this).hide();
+				s1XleBox.animate({
+					right: '-2000px',
+					bottom: '-300px'
+				})
+				s1XseBox.animate({
+					left: xseBoxSeat.left,
+					top: xseBoxSeat.top,
+					width: xseBoxSeat.width
+				}, function(){
+					
+					s1Xse3.animate({
+						opacity: 1
+					})
+					s1Xse4.animate({
+						opacity: 1
+					}, function () {
+						s1Xse1.animate({
+							right: 100,
+							opacity: 1
+						})
+						setTimeout(function () {
+							s1Xse2.animate({
+								right: '-218px',
+								opacity: 1
+							}, function () {
+								setTimeout(function () {
+									s1XseText.animate({
+										opacity: 1,
+										left: '-39%'
+									});
+								}, 300);
+								s1XseArrow1.animate({
+									opacity: 1
+								}, function () {
+									s1XleBtn.show().animate({
+										right: 50
+									});
+								});
+							})
+						}, 300)
+					})
+				})
+			});
+
+
+			s2ArrowDownBtn.on('click', function () {
+				$(this).hide();
+				if (curState2 == 1) {
+					curState2++;
+					s2Desc1Box.animate({
+						opacity: 0,
+					}, 300, 'easeOutQuart', function () {
+
+						s2Desc1Box.hide();
+						
+						s2Desc2Box.show();
+
+						s2Text3.animate({
+							opacity: 1
+						}, 2000, function () {
+						})
+
+						s2circleBox.animate({
+							opacity: 1
+						}, 2000, 'easeOutQuart', function () {
+							s2ArrowDownBtn.show();
+						});
+
+						s2Text1.animate({
+							opacity: 1,
+							left: '-370px'
+						});
+						s2Text2.animate({
+							opacity: 1,
+							right: 50
+						});
+
+						s2Text3Content.animate({
+							'margin-left': '-403px',
+							opacity: 1
+						})
+					})
+				} else if (curState2 === 2) {
+					s2CarBox.animate({
+						right: '-20%',
+						bottom: '-385px',
+						width: '110%'
+					})
+					s2Desc3Box.show();
+					s2Mark.animate({
+						opacity: 0
+					})
+					s2Bg.animate({
+						width: '138%'
+					});
+					s2Desc2Box.animate({opacity: 0})
+				}
+				
+			});
+
+			$('#app-page').fullpage({
+				sectionsColor: ['#000', '#000', '#000'],
+				anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+				menu: '#menu',
+				afterRender: function () {
+					s1CarBox.animate({
+						width: '90%',
+						opacity: 1
+					}, function () {
+						setTimeout(function () {
+							s1Title.animate({
+								top : 170,
+								left: 120,
+								opacity: 1
+							})
+							setTimeout(function () {
+								s1Title.animate({
+									top : 170,
+									left: 120,
+									opacity: 0
+								})
+								s1XseBox.animate({
+									top: xseBoxSeatInit.top,
+									left: xseBoxSeatInit.left,
+									width: xseBoxSeatInit.width,
+									opacity: 1
+								}, function () {
+									s1XseBtn.animate({
+										opacity: 1,
+										left: 60
+									})
+									s1ArrowDownBtn.show().animate({
+										opacity: 1
+									})
+								})
+							}, 1000);
+							$('.section1 .xle-lights').animate({
+								opacity: 1
+							})
+						}, 400)
+					})
+				},
+				afterLoad: function (anchorLink, index) {
+					
+					
+					if (curState === 2) {
+						console.log(curState)
+						curState = 1
+						s1CarBox.css({
+							right: 0,
+							bottom: 0,
+							opacity: 1,
+							width: '90%'
+						})
+						s1XseBox.css({
+							top: xseBoxSeat.top,
+							left: xseBoxSeat.left,
+							width: xseBoxSeat.width,
+							opacity: xseBoxSeat.opacity
+						})
+						s1Text1.attr('style', '');
+						s1Text2.attr('style', '');
+						s1Text3.attr('style', '');
+						s1XseArrow1.attr('style', '');
+						s1XseArrow2.attr('style', '');
+						s1XseBtn.show().attr('style', '').css({opacity: 1});
+					}
+
+					if (index === 2 && curState2 === 1) {
+						console.log(curState2, 'curState2')
+						s2CarBox.animate({
+							right: '10%'
+						}, 3000, 'easeOutSine', function () {
+							s2Desc1Box.animate({
+								opacity: 1
+							}, 1500, 'easeOutQuart', function () {
+								s2ArrowDownBtn.show().animate({
+									opacity: 1
+								})
+							})
+						});
+					}
+				}
+			});
+		});
+	</script>
+</body>
+</html>
