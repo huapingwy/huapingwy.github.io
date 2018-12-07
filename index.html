@@ -1,605 +1,2029 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>黄华平简历</title>
-    <style>
-      html,body,p,form,ul,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
-h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:14px}
-table{border-collapse:collapse;border-spacing:0;
-	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-th,td{padding:0}
-a{color:#ff7e3e;text-decoration:none}
-em,i,b{font-weight:normal;font-style:normal}
-li{list-style:none}
-img{border:0}
-input[type="text"],input[type="password"],input[type="button"]{font-size:14px;font-family:"Microsoft YaHei";color:#444;padding:0;background:#fff;border:0 none;
-	-webkit-border-radius:0;-moz-border-radius:0;-o-border-radius:0;-ms-border-radius:0;border-radius:0;
-	-webkit-appearance:none;
-	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-input[type="button"],input[type="submit"]{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
-button{padding:0;border:0 none}
-input,textarea,button{outline:0}
-textarea{font-size:14px;font-family:"Microsoft YaHei";color:#444}
-::-webkit-input-placeholder{color:#999}
-:-moz-placeholder{color:#999}
-::-moz-placeholder{color:#999}
-:-ms-input-placeholder{color:#999}
-
-html,body{position:relative;max-width:500px;height:100%;margin:0 auto}
-body{line-height:20px;font-size:14px;font-family:"Microsoft YaHei";color:#444;background-color:#f6f6f5}
-
-.at{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
-.bb{
-	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-.clearbox:after{display:block;height:0;content:' ';overflow:hidden;clear:both}
-.center{text-align:center !important}
-
-/*颜色*/
-.c_444{color:#444 !important}
-.c_light{color:#ff6000 !important}
-.c_gary{color:#868686 !important}
-.c_blue{color:#61a5ff !important}
-.c_purple{color:#937ae4 !important}
-.c_orange{color:#ff773e !important}
-.c_c7c7c7{color:#c7c7c7 !important}
-.c_hlight{color:#c35145 !important}
-/*按钮*/
-
-/*阴影*/
-#shadow{position:fixed;width:100%;height:100%;opacity:0.5;top:0;left:0;background-color:#000;z-index:9}
-
-/*整体页面架构*/
-#pageWp{position:relative;min-height:100%;padding:96px 0 231px 0;background-color:#ebebeb}
-#pageTop{position:absolute;width:100%;top:0;left:0;z-index:3}
-#pageContent{position:relative;;z-index:2}
-#pageFooter{position:absolute;width:100%;left:0;bottom:0;z-index:1}
-#pageWp.htab{padding-bottom:285px}
-#pageWp.htab #pageFooter{bottom:53px}
-#pageWp.htab .h40{display:none}
-#pageWp.hfloat{padding-bottom:282px}
-#pageWp.hfloat #pageFooter{bottom:51px}
-#pageWp.hhint{padding-bottom:342px}
-#pageWp.hhint #pageFooter{bottom:111px}
-@media only screen and (max-width: 320px) {
-	#pageWp.hhint{padding-bottom:362px}
-	#pageWp.hhint #pageFooter{bottom:131px}
-}
-@media only screen and (min-width: 414px) {
-	#pageWp.hhint{padding-bottom:322px}
-	#pageWp.hhint #pageFooter{bottom:91px}
-}
-
-/*头部*/
-header{position:relative;height:55px;line-height:23px;font-size:13px;background-color:#fff;border-bottom:1px solid #e8e8e8;z-index:2}
-header .logo{float:left;margin:13px 0 0 11px}
-header .location{position:relative;float:left;margin-top:16px}
-header .location:after{float:left;width:8px;height:13px;content:' ';margin-top:5px;background:url(//img01.51jobcdn.com/im/m/arrow.png) no-repeat;
-	-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;-ms-background-size:100% 100%;background-size:100% 100%;
-	-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
-header .location font{float:left;max-width:4em;font-size:13px;color:#ff7e3e;text-align:center;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;padding:0 8px}
-header .links{float:right;margin:16px 10px 0 0}
-header .login{position:relative;margin-right:10px;}
-header .login:after{content:'';position:absolute;width:1px;height:14px;top:2px;right:-5px;background-color:#ff7e3e;}
-
-/*导航*/
-nav{position:relative;height:40px;line-height:40px;text-align:center;background:#ff773e;z-index:1;
-	background:-webkit-linear-gradient(left,#ff863e,#ff773e,#ff883e);
-	background:-moz-linear-gradient(right,#ff863e,#ff773e,#ff883e);
-	background:-o-linear-gradient(right,#ff863e,#ff773e,#ff883e);
-	background:linear-gradient(to right,#ff863e,#ff773e,#ff883e)}
-nav a{float:left;width:25%;color:#fff}
-
-/*底部*/
-.btm{position:relative;height:42px;line-height:42px;color:#ff7e3e;padding:0 20px}
-.btm a{margin:0 8px}
-.btm a.at{float:left;max-width:150px}
-.btm a:first-child{margin-left:0}
-.btm a:last-child{position:absolute;top:0;right:18px;margin:0;padding-right:20px}
-.btm a:last-child:after{position:absolute;display:block;width:0;height:0;content:'\00a0';top:13px;right:4px;border-width:5px;border-style:solid;border-color:transparent transparent #ff7e3e transparent}
-
-footer{font-size:13px;color:#7b7b7b;text-align:center;padding:20px 0;background-color:#fff2e3}
-footer p{margin-bottom:10px}
-footer p:last-child{margin-bottom:0;padding-top:5px}
-footer a{display:inline-block;width:6.5em;font-size:14px;color:#939393}
-footer a.on{color:#ff7e3e}
-footer .icons a{width:25%}
-footer .icons a:before{display:block;width:39px;height:39px;content:'\00a0';margin:0 auto 5px;background:url(//img01.51jobcdn.com/im/m/footer_icons.png) 0 0 no-repeat;
-	-webkit-background-size:auto 39px;-moz-background-size:auto 39px;-ms-background-size:auto 39px;-o-background-size:auto 39px;background-size:auto 39px}
-footer .icons a:nth-child(2):before{background-position:-90px 0}
-footer .icons a:nth-child(3):before{background-position:-180px 0}
-footer .icons a:nth-child(4):before{background-position:-270px 0}
-
-/*tab选项*/
-.btab p{height:52px}
-.btab .t_in{position:fixed;width:100%;height:52px;left:0;bottom:0;background-color:#fff;border-top:1px solid #e6e6e6;z-index:8}
-.btab a{display:block;position:relative;float:left;width:20%;text-align:center;font-size:12px;color:#5d656b;padding-top:30px;}
-.btab a:after{content:'\00a0';width:25px;height:25px;position:absolute;top:8px;left:50%;margin-left:-12px;background:url(//img01.51jobcdn.com/im/m/icon_btab.png) no-repeat -1px -3px;
-	-webkit-background-size:80px auto;-moz-background-size:80px auto;-o-background-size:80px auto;-ms-background-size:80px auto;background-size:80px auto}
-.btab .i4:after,.btab .i4.on:after{background:url(//img01.51jobcdn.com/im/m/icon_home_ht3.png) #fff no-repeat;
-	-webkit-background-size:20px auto;-moz-background-size:20px auto;-ms-background-size:20px auto;-o-background-size:20px auto;background-size:20px auto}
-.btab .i2:after{background-position:1px -32px}
-.btab .i3:after{background-position:-2px -63px}
-.btab .i4:after{background-position:2px -22px}
-.btab .i5:after{background-position:-1px -127px}
-.btab a.on:after{width:35px;margin-left:-17px;top:6px}
-.btab .i1.on:after{background-position:-44px -2px}
-.btab .i2.on:after{background-position:-42px -32px}
-.btab .i3.on:after{background-position:-44px -62px}
-.btab .i4.on:after{background-position:7px -46px}
-.btab .i5.on:after{background-position:-44px -126px}
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 
 
-.fixtop{padding-top:45px}
-.fixtop .top{position:fixed !important;width:100%;top:0;left:0;z-index:8}
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
     
-            .sbox .txt,.sbox .selt .sval,
-	.rbox .e strong,.rbox .e label,.rbox .e i,
-	.xbox .face .name,.xbox .face .p,.xbox .face .icons,
-	.xname span,
-	.ibox .e .txt,.ibox .e label,
-	.pname .txt,.pbox .e,
-	.abox .aname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.sbox .e.e_ta label,input[type="date"],input[type="month"],.xbox .face .icons,.abox .tab a{
-	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+    
+  
 
-/*绠€鍘嗗ご閮�*/
-.top{position:relative;height:45px;line-height:45px;text-align:center;font-size:16px;background-color:#fff;z-index:2;
-	-webkit-box-shadow:0 0 3px 2px #ccc;-moz-box-shadow:0 0 3px 2px #ccc;-o-box-shadow:0 0 3px 2px #ccc;-ms-box-shadow:0 0 3px 2px #ccc;box-shadow:0 0 3px 2px #ccc}
-.top .back{position:absolute;width:45px;height:45px;top:0;left:0;background:url(//img01.51jobcdn.com/im/m/arrow.png) center no-repeat;
-	-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);
-	-webkit-background-size:10px auto;-moz-background-size:10px auto;-o-background-size:10px auto;-ms-background-size:10px auto;background-size:10px auto}
+  
 
-/*绠€鍘嗗垪琛�*/
-.sbox .e{position:relative;display:block;min-height:32px;line-height:32px;color:#444;padding:8px 26px 8px 95px;background-color:#fff}
-.sbox a.e:after,.sbox .user .upimg:after,.sbox .selt:after,.ibox .selt:after{position:absolute;width:8px;height:14px;content:'\00a0';top:17px;right:11px;background:url(//img01.51jobcdn.com/im/m/arrow_gray.png) no-repeat;
-    -webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;-ms-background-size:100% 100%;background-size:100% 100%}
-.sbox a.auth:after{position:absolute;width:20px;height:18px;content:'\00a0';top:50%;right:6px;margin-top:-9px;background:url(//img01.51jobcdn.com/im/m/bbs_icon.png) -4px -120px no-repeat;
-    -webkit-background-size:130px 180px;-moz-background-size:130px 180px;-o-background-size:130px 180px;-ms-background-size:130px 180px;background-size:130px 180px}
-.sbox .e:before,.sbox .e.lb_w:after,.stit:before,.ibox .e:before,.ibox .e.lb_w:after,.sbox .custom.lb_w:before,.sbox .custom:after,.pbox .e:before{position:absolute;height:0;content:'\00a0';font-size:0;left:11px;right:11px;bottom:0;border-bottom:1px solid #e6e6e6}
-.sbox .e:last-child:before,.ibox .e:last-child:before{display:none}
-.sbox .e.eb:before{display:block}
-.sbox .e.e2{padding-right:0}
-.sbox .e.long{padding-left:118px}
-.sbox .e.lb_w,.ibox .e.lb_w{margin-top:-1px;padding:8px 26px}
-.sbox .e.lb_w:after,.ibox .e.lb_w:after,.sbox .custom.lb_w:before{top:0;border-bottom-style:dashed}
-.sbox .e.e_ta{padding:0 11px 8px 11px}
-.sbox .e.e_ta label{position:relative;display:block;left:11px;margin-bottom:16px}
-.sbox .e.e_ta .error{line-height:30px}
-.sbox .e.e_ta .error:before{height:30px}
-.sbox .e.e_ini label{line-height:16px;top:8px}
-.sbox .e.e_ini i{display:block;font-size:12px;color:#868686}
-.sbox .e label{position:absolute;text-align:left;left:21px;top:8px}
-.sbox .e label em{position:absolute;color:#ff6000;left:-8px;top:0}
-.sbox .e input[type="text"]{background-color:transparent}
-.sbox .e .error{line-height:20px;font-size:12px;color:#F00;text-align:right;margin-left:-84px}
-.sbox .e .error:before{display:inline-block;width:15px;height:20px;content:'\00a0';margin-right:5px;background:url(//img01.51jobcdn.com/im/mobile/m/icon_err.png) center no-repeat;
-	-webkit-background-size:15px;-moz-background-size:15px;-ms-background-size:15px;-o-background-size:15px;background-size:15px}
-.sbox .txt{display:block;width:100%;height:32px;line-height:32px;color:#444;text-align:right}
-.sbox .authen{display:block;width:100%;height:32px;line-height:32px;color:#c7c7c7;text-align:right}
-.sbox .ptxa{height:130px;padding:6px 11px;background-color:#f6f6f6}
-.sbox .ptxa.noNum{height:110px}
-.sbox .ptxa textarea{width:100%;height:110px;line-height:20px;font-size:12px;vertical-align:top;padding:0;background-color:transparent;border:none}
-.sbox .ptxa .gray{line-height:20px;font-size:12px;text-align:right}
-.sbox .tbox{position:relative;min-height:32px;padding-right:60px}
-.sbox .tbox .wy{position:absolute;top:0;right:26px}
-.sbox .tbox .arr2{position:absolute;width:12px;height:12px;top:50%;right:11px;margin-top:-6px;background:url(//img01.51jobcdn.com/im/m/arr2.png) center no-repeat;
-	-webkit-background-size:12px auto;-moz-background-size:12px auto;-ms-background-size:12px auto;-o-background-size:12px auto;background-size:12px auto}
-.sbox .e.on .tbox .arr2{
-	-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
-.sbox .custom{position:relative;padding:0 11px;background-color:#fff}
-.sbox .custom:after{bottom:-1px;z-index:2}
-.sbox .custom.lb_w{margin-top:-1px}
-.sbox .custom.lb_w:before{top:-1px}
-.sbox .custom .e{padding-right:16px;background-color:#fff8ed}
-.sbox .custom .e label{left:11px}
-.sbox .custom .e:before{left:0;right:0}
-.sbox .custom .e.e_ta{padding:0}
-.sbox .custom .ptxa{border-top:1px solid #e6e6e6}
-.sbox .custom .tbox{padding-right:34px}
-.sbox .custom .tbox .wy{right:0}
-.sbox .custom .e.e_ta .error{right:16px}
-.sbox .custom .iptb{line-height:32px;text-align:right;padding:8px 15px;background-color:#fff8ed}
-.sbox .custom .iptb .error{line-height:20px;font-size:12px;color:#F00;text-align:right}
-.sbox .custom .iptb .error:before{display:inline-block;width:15px;height:20px;content:'\00a0';margin-right:5px;background:url(//img01.51jobcdn.com/im/m/icon_err.png) center no-repeat;
-	-webkit-background-size:15px;-moz-background-size:15px;-ms-background-size:15px;-o-background-size:15px;background-size:15px}
-.sbox .custom .slash{display:inline-block;padding:0 11px}
-.sbox .custom .ipt .txt{background-color:transparent}
-.sbox .custom .ipt{display:inline-block;width:60px;top:0}
-.sbox .custom .warn{font-size:12px;color:#4c99ff;text-align:right;padding-right:16px;background-color:#ede8e1}
-.sbox .custom .warn:before{display:inline-block;width:12px;height:100%;content:'\00a0';margin-right:5px;background:url(//img01.51jobcdn.com/im/m/icon_warn.png) center no-repeat;
-	-webkit-background-size:12px;-moz-background-size:12px;-o-background-size:12px;-ms-background-size:12px;background-size:12px}
-.sbox .rdob{text-align:right}
-.sbox .rdo{position:relative;display:inline-block;height:22px;line-height:22px;padding-left:50px}
-.sbox .rdo:after,.pbox .e:after{position:absolute;width:22px;height:22px;left:20px;content:'\00a0';background:url(//img01.51jobcdn.com/im/m/icon_radio.png) no-repeat;
-    -webkit-background-size:75px auto;-moz-background-size:75px auto;-o-background-size:75px auto;-ms-background-size:75px auto;background-size:75px auto}
-.sbox .rdo.on:after,.pbox .e.on:after{background-position:-25px 0}
-.sbox .rdo.en:after{background-position:-50px 0}
-.pbox .e.off{color:#868686}
-.pbox .e.off:after{background-position:-50px 0}
-.sbox .selt .sval,.ibox .selt .sval{display:block;text-align:right}
-.sbox .selt select,.ibox .selt select,input[type="date"],input[type="month"]{position:absolute;width:100%;height:100%;overflow:visible;top:0;left:0;opacity:0;border:0 none;z-index:2}
-input[type="date"],input[type="month"]{min-width:100%}
-.sbox .rt{float:right}
-.sbox .rt .selt,.sbox .rt .rdob{float:left}
-.sbox .rt .rdob{position:relative;margin-right:10px;z-index:3}
-.sbox .user:after{display:block;width:0;height:0;font-size:0;content:'\00a0';clear:both}
-.sbox .user label{top:12px}
-.lr{width:100%}
-.sbox .user .cmax{position:absolute;width:100%;height:56px;top:0;right:0;opacity:0}
-.sbox .user .cmax input[type="file"]{width:100%;height:56px;vertical-align:top}
-.sbox .user .upimg{float:right;width:38px;height:38px;overflow:hidden;border:1px solid #868686;
-	-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;-o-border-radius:100%;border-radius:100%}
-.sbox .user .upimg:before{position:absolute;width:15px;height:15px;content:'\00a0';right:26px;bottom:8px;background:url(//img01.51jobcdn.com/im/m/icon_phone.png) no-repeat;
-	-webkit-background-size:15px;-moz-background-size:15px;-ms-background-size:15px;-o-background-size:15px;background-size:15px}
-.sbox .user .upimg:after{top:21px}
-.sbox .c_default,.ibox .c_default{color:#999}
+  
 
-/*宸ヤ綔缁忛獙銆佹暀鑲茬粡鍘嗐€侀」鐩粡楠�*/
-.rbox .e{position:relative;line-height:20px;color:#444;padding:12px 110px 12px 21px;background-color:#fff}
-.rbox .e:after{position:absolute;height:0;content:'\00a0';font-size:0;left:11px;right:11px;bottom:0;border-bottom:1px solid #e6e6e6}
-.rbox .e:last-child:after{display:none}
-.rbox .e strong{display:block;font-weight:normal;font-size:15px}
-.rbox .e label{display:block;color:#868686}
-.rbox .e i{display:block;font-size:12px;color:#868686}
-.rbox .e .tab{position:absolute;top:50%;right:21px;
--webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
-.rbox .e .tab center{display:inline-block;width:40px;color:#ff7e3e;padding-top:20px;background:url(//img01.51jobcdn.com/im/m/icon_resume.png) 12px 0 no-repeat;
-	-webkit-background-size:auto 15px;-moz-background-size:auto 15px;-ms-background-size:auto 15px;-o-background-size:auto 15px;background-size:auto 15px}
-.rbox .e .tab center:last-child{background-position:-30px 0;border-left:1px solid #e6e6e6}
+  
 
-/*鎸夐挳*/
-.btnbox{padding:50px 5%;background-color:#fff}
-.btnbox.b2{padding:0 11px;background-color:transparent}
-.btnbox.b3{padding:50px 5%;background-color:transparent}
-.btn{width:100%;height:40px;line-height:40px;font-size:15px;font-weight:bold;color:#fff;text-align:center;letter-spacing:3px;background-color:#ff7e3e;border:1px solid #ff7e3e;-webkit-appearance:none;
-	-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px}
-.btn_s{width:40%;margin:0 4%}
+  
 
-.btn_add{display:block;height:50px;line-height:50px;color:#4c99ff;text-align:center;margin-top:8px;background-color:#fff}
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
-/*绠€鍘嗕慨鏀�*/
-.xname{height:130px;font-size:16px;font-weight:bold;color:#fff;text-align:center;margin-bottom:-70px;
-	background:url(//img01.51jobcdn.com/im/m/bg_shead.png),-webkit-linear-gradient(left,#ff773e,#ffbb3e);
-	background:-moz-url(//img01.51jobcdn.com/im/m/bg_shead.png),-moz-linear-gradient(right,#ff773e,#ffbb3e);
-	background:-o-url(//img01.51jobcdn.com/im/m/bg_shead.png),-o-linear-gradient(right,#ff773e,#ffbb3e);
-	background:url(//img01.51jobcdn.com/im/m/bg_shead.png),linear-gradient(to right,#ff773e,#ffbb3e);
-	-webkit-background-size:100%;-moz-background-size:100%;-ms-background-size:100%;-o-background-size:100%;background-size:100%;
-	-webkit-box-shadow:0 -40px 40px #f6f6f5 inset;-moz-box-shadow:0 -40px 40px #f6f6f5 inset;-ms-box-shadow:0 -40px 40px #f6f6f5 inset;-o-box-shadow:0 -40px 40px #f6f6f5 inset;box-shadow:0 -40px 40px #f6f6f5 inset}
-.xname .in{height:60px;line-height:60px}
-.xname em{width:25px;height:60px}
-.xname em:nth-of-type(1){position:relative;float:left;top:0;left:0;background:url(//img01.51jobcdn.com/im/m/arrow_white.png) center no-repeat;
-		-webkit-background-size:11px auto;-moz-background-size:11px auto;-ms-background-size:11px auto;-o-background-size:11px auto;background-size:11px auto}
-.xname em:nth-of-type(2){display:inline-block;vertical-align:top;background:url(//img01.51jobcdn.com/im/m/icon_xname.png) center no-repeat;
-		-webkit-background-size:15px;-moz-background-size:15px;-ms-background-size:15px;-o-background-size:15px;background-size:15px}
-.xname span{display:inline-block;max-width:70%}
-.xbox{padding:0 6px}
-.xbox .e{margin-bottom:10px;background-color:#fff;
-	-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px}
-.xbox .e:last-child{margin-bottom:0}
-.xbox .e.e0 .tit:before{background-position:0 -45px}
-.xbox .e.e1 .tit:before{background-position:0 -75px}
-.xbox .e.e2 .tit:before{background-position:0 -105px}
-.xbox .e.e3 .tit:before{background-position:0 -135px}
-.xbox .e.e4 .tit:before{background-position:0 -165px}
-.xbox .e.e5 .tit:before{background-position:0 -195px}
-.xbox .e .none{font-size:13px;color:#8d8d8d;padding:14px 26px 14px 42px}
-.xbox .e .tit{position:relative;display:block;line-height:32px;color:#444;padding:8px 26px 8px 42px;border-bottom:1px solid #e6e6e6}
-.xbox .e .tit:before{position:absolute;width:25px;height:30px;content:'\00a0';top:8px;left:10px}
-.xbox .e .tit:before,.xbox .face .icons{background:url(//img01.51jobcdn.com/im/m/icon_xbox.png) 0 0 no-repeat;
-	-webkit-background-size:25px auto;-moz-background-size:25px auto;-o-background-size:25px auto;-ms-background-size:25px auto;background-size:25px auto}
-.xbox .e .tit:after,.obox .phone label:after{position:absolute;width:8px;height:14px;content:'\00a0';top:50%;right:11px;margin-top:-7px;background:url(//img01.51jobcdn.com/im/m/arrow_gray.png) no-repeat;
-    -webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;-ms-background-size:100% 100%;background-size:100% 100%}
-.xbox .face{position:relative;min-height:82px;line-height:24px;padding:18px 26px 18px 120px}
-.xbox .face:after{display:block;width:100%;height:0;font-size:0;content:'\00a0';clear:both}
-.xbox .face img{position:absolute;top:50%;left:26px;background-color:#efefef;
-	-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
-.xbox .face .name{color:#444}
-.xbox .face .p{font-size:12px;color:#868686;margin-bottom:5px}
-.xbox .face .icons{float:left;max-width:100%;line-height:20px;font-size:12px;color:#868686;padding-left:20px}
-.xbox .face .email{background-position:0 5px}
-.xbox .face .tel{margin-right:10px;background-position:0 -10px}
-.xbox .face .state{background-position:0 -25px}
-.xbox .txt{padding:14px 0}
-.xbox .txt .t{position:relative;line-height:22px;font-size:13px;margin-bottom:5px;padding:0 11px 0 132px}
-.xbox .txt .t:last-child{margin-bottom:0}
-.xbox .txt .t label{position:absolute;top:0;left:42px}
-.xbox .txt.jbox{padding:7px 0;border-bottom:0 none}
-.xbox .txt.jbox .x.x2:before{top:8px}
 
-/*绠€鍘嗛瑙�*/
-.jbox{position:relative;line-height:20px;font-size:13px;color:#444;word-break:break-all;padding-bottom:20px;background-color:#fff;border-bottom:10px solid #ff7e3e}
-.jbox .x{margin-bottom:7px}
-.jbox .x:last-child{margin-bottom:0}
-.jbox .x.x2{position:relative}
-.jbox .x.x2:before{position:absolute;width:1px;content:'\00a0';top:55px;bottom:4px;left:21px;background-color:#ff7e3e}
-.jbox .x.x2 .bn{position:relative;margin-bottom:20px;padding-left:21px}
-.jbox .x.x2 .bn:last-child{margin-bottom:0}
-.jbox .x.x2 .bn:before{position:absolute;width:13px;height:13px;content:'\00a0';top:5px;left:15px;background:url(//img01.51jobcdn.com/im/m/icon_his.png) center no-repeat;
-	-webkit-background-size:13px auto;-moz-background-size:13px auto;-ms-background-size:13px auto;-o-background-size:13px auto;background-size:13px auto}
-.jbox .x strong{line-height:40px;display:block;color:#ff7e3e;text-indent:21px;border-bottom:1px solid #ff7e3e}
-.jbox .st{line-height:22px;font-weight:bold;font-size:15px;margin:7px 21px}
-.jbox .st.s2{font-size:14px;color:#555}
-.jbox .tx{position:relative;min-height:20px;margin:7px 21px;padding-left:86px}
-.jbox .tx label{position:absolute;left:0;top:0}
-.jbox .tx.t2{padding-left:130px}
-.jbox .tx2{line-height:22px;margin:7px 21px}
-.jbox .tx2 label{display:block}
-.jbox .fl span{float:left}
-.jbox .fl:after{display:block;width:0;height:0;content:'\00a0';clear:both}
-.jbox .gray{padding:5px 0;background-color:#f3f3f3}
-.jbox .gray label{text-indent:1em}
-.jbox .fx{display:flex;flex-flow:row wrap;padding:0 21px}
-.jbox .fx span{width:50%;line-height:20px;padding:5px 0}
-.jbox .fx span:last-child{text-indent:2em}
-.jbox .hai{position:relative;display:inline-block;height:20px;line-height:20px;font-size:12px;color:#fff;margin-left:10px;padding:3px 5px;background-color:#937ae4;zoom:0.7;
-	-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px}
-.jbox .hai:before{position:absolute;width:0;height:0;font-size:0;content:'\00a0';top:7px;left:-6px;border-top:6px solid transparent;border-right:6px solid #937ae4;border-bottom:6px solid transparent}
-.jbox .view a{color:#4c99ff}
-.jbox .cha{display:inline-block;width:15px;height:20px;vertical-align:bottom;margin-left:5px;background:url(//img01.51jobcdn.com/im/m/cha.png) center no-repeat;
-	-webkit-background-size:15px;-moz-background-size:15px;-ms-background-size:15px;-o-background-size:15px;background-size:15px}
-.jbox .head{position:relative;padding-right:60px}
-.jbox .head img{position:absolute;top:0;right:0;background-color:#f0f0f0}
-.jbox .gs{display:inline-block;height:18px;line-height:18px;font-size:12px;color:#ec6941;margin-left:5px;padding:0 5px;background-color:#fff;border:1px solid #ec6941;
-	-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px}
-.jbox .paste{display:block;line-height:normal;padding:7px 21px}
-.jbox .paste p{margin:0;padding:0}
-.jbox .paste h1,.jbox .paste  h2,.jbox .paste  h3,.jbox .paste  h4,.jbox .paste  h5,.jbox .paste  h6{font-weight:bolder}
-.jbox .paste h1{font-size:2em}
-.jbox .paste h2{font-size:1.5em}
-.jbox .paste h3{font-size:1.17em}
-.jbox .paste h4{font-size:1em}
-.jbox .paste h5{font-size:0.83em}
-.jbox .paste h6{font-size:0.67em}
-.jbox .paste i,.jbox .paste em{font-style:italic}
-.jbox .paste b,.jbox .paste strong{font-weight:bold}
-.jbox .paste strong{line-height:normal;color:#555;margin:0;padding:0;border:0 none}
-.jbox .paste a{color:#555;text-decoration:underline}
 
-/*鎵嬫満鍙疯璇併€佹棤鎼滅储缁撴灉銆佺矘璐寸畝鍘�-鍏朵粬淇℃伅*/
-.obox .e{padding:26px 11px;background-color:#fff}
-.obox .p{font-size:12px;color:#868686;padding:15px 11px}
-.obox .ptxa{height:130px;padding:6px 11px;background-color:#f6f6f6}
-.obox .ptxa textarea{width:100%;height:110px;line-height:20px;font-size:12px;vertical-align:top;padding:0;background-color:transparent;border:none}
-.obox .f14{font-size:14px}
-.obox .in{margin:38px 11px;background-color:#fff;border:1px solid #bebebe;
-	-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px}
-.obox .c{position:relative;min-height:30px;line-height:30px;padding:10px;border-bottom:1px solid #e6e6e6}
-.obox .c.c2{padding-right:102px}
-.obox .c:last-child{border-bottom:0 none}
-.obox .c .txt{display:block;width:100%;line-height:30px;font-size:16px;color:#444}
-.obox .c label{position:absolute;width:90px;height:30px;text-indent:10px;top:10px;left:0;border-right:1px solid #868686}
-.obox .c label:after{
-    -webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
-.obox .but{position:absolute;height:28px;line-height:28px;color:#ff7e3e;text-align:center;padding:0 5px;top:10px;right:10px;background-color:#fff;border:1px solid #ff7e3e;
-	-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px}
-.obox .phone{padding-left:108px}
-.obox .phone select{position:absolute;width:100%;height:50px;outline:none;top:-10px;left:0;border:none;opacity:0;z-index:3}   
 
-/*绠€鍘嗗垵濮嬪寲*/
-.shead{height:46px;line-height:46px;font-size:16px;color:#fff;text-align:center;background-color:#fd8959}
-.stit{position:relative;display:block;min-height:32px;line-height:32px;color:#444;padding:8px 26px 8px 21px;background-color:#fff}
-.bname{position:relative;height:38px;text-align:center;background-color:#fff}
-.bname span{position:relative;display:inline-block;height:34px;line-height:34px;font-size:12px;color:#b5b5b5;margin-top:2px;padding:0 7px;background-color:#fff;z-index:2}
-.bname em{position:absolute;height:0;top:19px;right:11px;left:11px;border-top:1px dashed #b0b0b0;z-index:1}
-.bname:before,.bname:after{position:absolute;height:0;content:'\00a0';right:11px;bottom:0;left:11px;border-top:2px solid #f2f2f2}
-.bname:before{top:0}
-.ibox .e{position:relative;line-height:22px;color:#444;overflow-x:hidden;padding:8px 26px 8px 21px;background-color:#fff}
-.ibox .e.e2{line-height:32px;padding-left:55%}
-.ibox .e.tit .txt{font-weight:bold}
-.ibox .e.lb_w .txt{display:block;width:100%;height:32px;line-height:32px;color:#999;text-align:right}
-.ibox .e label{position:absolute;max-width:50%;text-align:left;left:21px;top:8px}
-.ibox .e .p{font-size:12px;color:#868686}
 
-/*绠€鍘嗗鍒�*/
-.pname,.phit,.pbox .e{position:relative;min-height:32px;line-height:32px;color:#444;padding:8px 26px 8px 118px;background-color:#fff}
-.pname{margin-bottom:8px}
-.pname:before,.phit:before{position:absolute;width:20px;height:15px;content:'\00a0';top:16px;left:11px;background:url(//img01.51jobcdn.com/im/m/icon_repeat.png) no-repeat;
-	-webkit-background-size:15px auto;-moz-background-size:15px auto;-ms-background-size:15px auto;-o-background-size:15px auto;background-size:15px auto}
-.pname label{position:absolute;left:35px;top:8px}
-.pname .txt{display:block;width:100%;height:32px;line-height:32px;color:#444;text-align:right}
-.phit{padding-left:35px}
-.phit:before{background-position:0 -18px}
-.pbox .e{padding-left:50px}
-.pbox .e:before{top:0}
-.pbox .e:after{top:13px}
 
-/*鎴戠殑绠€鍘�*/
-.abox .fast,.abox .tab a:before,.abox .star,.abox .star:before{background:url(//img01.51jobcdn.com/im/m/icon_abox.png) no-repeat;
-	-webkit-background-size:105px auto;-moz-background-size:105px auto;-ms-background-size:105px auto;-o-background-size:105px auto;background-size:105px auto}
-.abox{position:relative;margin-bottom:8px;background-color:#fff;
-	-webkit-box-shadow:0 2px 1px 1px #dedede;-moz-box-shadow:0 2px 1px 1px #dedede;-o-box-shadow:0 2px 1px 1px #dedede;-ms-box-shadow:0 2px 1px 1px #dedede;box-shadow:0 2px 1px 1px #dedede}
-.abox .aname{line-height:32px;color:#444;padding:0 21px}
-.abox .p,.abox .e{line-height:22px;font-size:12px;color:#868686;padding:0 21px}
-.abox .fast{position:absolute;font-size:12px;color:#868686;top:76px;right:21px;padding-left:20px;background-position:-84px -20px}
-.abox .fast.on{color:#ff773e;background-position:-84px 0}
-.abox .tab{overflow:hidden}
-.abox .tab a{float:left;width:32%;height:46px;line-height:46px;font-size:13px;color:#868686;text-align:center;margin:2% 2% 0 0;background-color:#fff8ed}
-.abox .tab a:before{display:inline-block;width:20px;height:20px;content:'\00a0';vertical-align:text-bottom;margin-right:5px;margin-bottom:-2px}
-.abox .tab a:nth-of-type(3n+3){margin-right:0}
-.abox .tab a.t0:before{background-position:0 0}
-.abox .tab a.t1:before{background-position:-20px 0}
-.abox .tab a.t2:before{width:24px;background-position:-40px 0}
-.abox .tab a.t3:before{background-position:0 -20px}
-.abox .tab a.t4:before{background-position:-20px -20px}
-.abox .tab a.t5:before{width:24px;background-position:-40px -20px}
-.abox .tab a.t6{color:#c1c1c1}
-.abox .tab a.t6:before{background-position:-64px -20px}
-.abox .star{position:relative;display:inline-block;width:80px;height:20px;vertical-align:top;background-position:0 -42px}
-.abox .star:before{float:left;content:'\00a0';background-position:0 -62px}
-.abox .star.s0_5:before{width:7px}
-.abox .star.s1:before{width:15px}
-.abox .star.s1_5:before{width:23px}
-.abox .star.s2:before{width:31px}
-.abox .star.s2_5:before{width:39px}
-.abox .star.s3:before{width:47px}
-.abox .star.s3_5:before{width:55px}
-.abox .star.s4:before{width:63px}
-.abox .star.s4_5:before{width:71px}
-.abox .star.s5:before{width:80px}
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-.asslist{position:absolute;width:100%;max-height:200px;top:100%;right:11px;margin-top:-1px;padding-left:136px;z-index:9}
-.asslist .cn{padding:8px 15px;background-color:#fffbf4;border:1px solid #f3f3f3}
-.asslist .ae{display:block;line-height:32px;font-size:13px;color:#111;text-align:right}
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
-.job_ass{position:absolute;width:60%;right:11px;top:48px;text-align:right;padding:10px 20px 10px 10px;background-color:#fffbf4;border:1px solid #f3f3f3;z-index:3}
-.job_ass li{height:30px;line-height:30px;color:#111111;font-size:13px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 
-/*闄勪欢*/
-#enclosure{min-height:100%;background-color:#fff}
-#enclosure .e_img{padding:25px 22px 0}
-#enclosure .e_img img{width:100%}
-        </style>
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title> Hexo </title>
 </head>
-<body>
-        <div class="contaner"><div xmlns="" id="pageContent" class="fixtop">
-                <div class="top">
-                <a class="back"></a>					
-                            简历预览
-                        </div>
-                <div class="jbox">
-                <div class="x">
-                <strong>基本信息</strong><p class="st head"><span>黄华平</span><br>广州  | 男 | 27岁 | 6年工作经验<img width="50" height="61" src="data:image/jpeg;base64,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" alt="头像"></p>
-                <p class="tx"><label>出生日期</label><span>1991-3-13</span></p>
-                <p class="tx"><label>手机号</label>15915998127</p>
-                <p class="tx"><label>求职状态</label>目前正在找工作</p>
-                <p class="tx"><label>邮箱</label><span>1019227223@qq.com</span></p>
-                <p class="tx"><label>国籍/户口</label><span>汕尾</span></p>
-                <p class="tx"><label>婚姻状况</label><span>未婚</span></p>
-                <p class="tx"><label>证件号</label><span>441581199103131812</span>(身份证)</p>
-                </div>
-                <div class="x">
-                <strong>求职意向</strong><p class="tx"><label>到岗时间</label>随时</p>
-                <p class="tx"><label>工作性质</label>全职</p>
-                <p class="tx"><label>目标地点</label><span>广州</span></p>
-                <p class="tx"><label>期望薪资</label>15000-18000	元/月</p>
-                <p class="tx"><label>职能/职位</label>Web前端开发
-                <span class="tag">&nbsp;&nbsp;Web前端开发工程师</span></p>
-                </div>
-                <div class="x">
-                <strong>自我评价</strong><p class="tx2"><span>1、熟练运用HTML5/CSS3、Javascript、es6等前端技术，熟悉页面架构和布局，能编写符合W3C标准、兼容主流浏览器的代码<br>
-                2、熟悉HTML&nbsp;DOM对象的JavaScript编程，熟悉对象化JavaScript编程，熟悉JavaScript模块化开发编程，熟悉AJAX等交互流程<br>
-                3、对用户体验、交互操作流程有深刻理解，在可用性、性能、浏览器兼容性等方面有实践经验<br>
-                4、熟练运用gulpjs,&nbsp;gruntjs、webpack&nbsp;等构建工具<br>
-                5、熟悉微信小程序、公众号开发<br>
-                6、熟悉&nbsp;vue、&nbsp;stylus、&nbsp;less、jQuery、element-ui、bootstrap等UI库和框架</span></p>
-                </div>
-                <div class="x x2">
-                <strong>工作经验</strong><span><div class="bn">
-                <p class="st">2016/6~至今</p>
-                <p class="st">广东联结电子商务有限公司</p>
-                <p class="st"><span>技术研发中心  |  Web前端开发</span></p>
-                <p class="tx2"><span>互联网/电子商务</span>
-                                        | <span>民营公司</span>
-                                        | <span>50-150人</span></p>
-                <div class="tx2">
-                <label>工作描述</label><div>1、运用&nbsp;vue2&nbsp;es6&nbsp;vue-router&nbsp;element-ui&nbsp;完成项目需求开发<br>
-                2、vue公共组件的开发与维护<br>
-                3、解决不同的浏览器及不同版本的兼容性问题。<br>
-                4、与后台开发工程师协作，完成各种数据交互、页面开发、动态信息展现和用户的互动。<br>
-                5、负责公司小程序开发</div>
-                </div>
-                </div>
-                <div class="bn">
-                <p class="st">2015/4~2016/6</p>
-                <p class="st">广东圆邦酒业股份有限公司</p>
-                <p class="st"><span>研发部  |  Web前端开发工程师</span></p>
-                <p class="tx2"><span>互联网/电子商务</span>
-                                        | <span>民营公司</span>
-                                        | <span>50-150人</span></p>
-                <div class="tx2">
-                <label>工作描述</label><div>1，负责网站HTML/JavaScript/CSS代码的编写，实现页面效果和动态功能，支持web站实现与运营活动；<br>
-                2，解决多浏览器和多设备平台的样式和javascript兼容问题，实现网站在多设备下自适应显示功能；<br>
-                3，负责微信端开发和维护（接口式开发，JS渲染模板，JS写逻辑代码）；<br>
-                4，配合后端开发人员，实现产品功能；保证项目的质量与进度；<br>
-                5，考虑用户体验，配合产品人员不断优化产品设计，与产品开发团队工作紧密结合，实现产品UI/UE方面的开发需求，确保产品具有最优质的用户使用体验<br>
-                6，研究Web新技术，对产品进行不断改进和优化。网址：weixin.9rx.cc</div>
-                </div>
-                </div>
-                <div class="bn">
-                <p class="st">2014/4~2015/4</p>
-                <p class="st">广州市美骑网络科技有限公</p>
-                <p class="st"><span>网络技术部  |  Web前端开发工程师</span></p>
-                <p class="tx2"><span>互联网/电子商务</span>
-                                        | <span>民营公司</span>
-                                        | <span>50-150人</span></p>
-                <div class="tx2">
-                <label>工作描述</label><div>负责公司网站，日常维护，专题制作（静页面），配合公司其他前端工程师制定前端规范与前端组件</div>
-                </div>
-                </div>
-                <div class="bn">
-                <p class="st">2013/8~2014/3</p>
-                <p class="st">博鳌纵横网络科技有限公司</p>
-                <p class="st"><span>技术部  |  web前端开发工程师</span></p>
-                <p class="tx2"><span>互联网/电子商务</span>
-                                        | <span>民营公司</span>
-                                        | <span>150-500人</span></p>
-                <div class="tx2">
-                <label>工作描述</label><div>负责把设计图转成HTML静态页面，根据产品的需求实现交互代码，ajax数据交互，配合后台完成相关功能开发，前端表单验证，公司常用前端组件的开发。公司网站http://www.wtoip.com&nbsp;英文版&nbsp;http://en.wtoip.com</div>
-                </div>
-                </div>
-                <div class="bn">
-                <p class="st">2012/2~2013/8</p>
-                <p class="st">深圳铱王星科技有限公司</p>
-                <p class="st"><span>技术部  |  web前端开发工程师</span></p>
-                <p class="tx2"><span>互联网/电子商务</span>
-                                        | <span>民营公司</span>
-                                        | <span>少于50人</span></p>
-                <div class="tx2">
-                <label>工作描述</label><div>在公司负责客户网站的设计图转成静态页面，ajax数据交互，jquery插件开发。</div>
-                </div>
-                </div></span>
-                </div>
-                <div class="x x2">
-                <strong>教育经历</strong><div class="bn">
-                <p class="st">2009/9~<span>2012/7</span></p>
-                <p class="st"><span>汕头职业技术学院</span></p>
-                <div class="tx2"><span><span>计算机应用</span> | <span>大专</span></span></div>
-                </div>
-                </div>
-                <div class="x x2">
-                <strong>项目经验</strong><div class="bn">
-                <div class="st">2015/4~<span>2015/12</span>
-                </div>
-                <div class="st"><span>微商城</span></div>
-                <div class="tx2">
-                <label>项目描述</label><div>webstorm，usblime&nbsp;text,&nbsp;Brackets(开发工具)<br>
-                mac(软件环境)微商城开发</div>
-                </div>
-                <div class="tx2">
-                <label>责任描述</label><div>负责微商城前端开发，用require.js完成模块化开发，AJAX,JSONP请求数据，用artTemplate.js渲染数据成动态页</div>
-                </div>
-                </div>
-                <div class="bn">
-                <div class="st">2014/4~<span>2014/10</span>
-                </div>
-                <div class="st"><span>专题前端共用组件</span></div>
-                <div class="tx2">
-                <label>项目描述</label><div>webstorm，usblime&nbsp;text(开发工具)<br>
-                mac(软件环境)公司专题活动较多，为节省人力物力与业务需求开发专题通用前端组件</div>
-                </div>
-                <div class="tx2">
-                <label>责任描述</label><div>配合后端完成前端组件编写，浏览器兼容调试，后期维护</div>
-                </div>
-                </div>
-                <div class="bn">
-                <div class="st">2013/6~<span>2014/2</span>
-                </div>
-                <div class="st"><span>公司网站全新版</span></div>
-                <div class="tx2">
-                <label>项目描述</label><div>sublime&nbsp;,&nbsp;webstorm(开发工具)全新版，相关流程优化，后台代码重新整理与优化，功能增加，提高用户体验，设计风格优化。</div>
-                </div>
-                <div class="tx2">
-                <label>责任描述</label><div>负责把设计图切成表态页，开发前端交互代码与前端相关插件。<br>
-                <br>
-                网址：http://www.wtoip.com</div>
-                </div>
-                </div>
-                </div>
-                </div>
-                </div></div>    
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/20/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/20/hello-world/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-20T15:56:38+08:00">
+                2017-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="quick-start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/C语言/2017-04-18-OpenProcessToken/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/C语言/2017-04-18-OpenProcessToken/" itemprop="url">
+                  OpenProcessToken
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T15:29:47+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="window-api-openprocesstoken函数"><a href="#window-API-OpenProcessToken函数" class="headerlink" title="[window-API] OpenProcessToken函数"></a>[window-API] OpenProcessToken函数</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">/* hello world demo */</div><div class="line">BOOL CreateProcess(</div><div class="line">    LPCTSTR lpApplicationName, // 应用程序名称  </div><div class="line">    LPTSTR lpCommandLine, // 命令行字符串  </div><div class="line">    LPSECURITY_ATTRIBUTES lpProcessAttributes, // 进程的安全属性  </div><div class="line">    LPSECURITY_ATTRIBUTES lpThreadAttributes, // 线程的安全属性  </div><div class="line">    BOOL bInheritHandles, // 是否继承父进程的属性  </div><div class="line">    DWORD dwCreationFlags, // 创建标志  </div><div class="line">    LPVOID lpEnvironment, // 指向新的环境块的指针  </div><div class="line">    LPCTSTR lpCurrentDirectory, // 指向当前目录名的指针  </div><div class="line">    LPSTARTUPINFO lpStartupInfo, // 传递给新进程的信息  </div><div class="line">    LPPROCESS_INFORMATION lpProcessInformation // 新进程返回的信息  </div><div class="line">); </div><div class="line">int main()</div><div class="line">&#123;</div><div class="line">    printf(&quot;Hello World&quot;);</div><div class="line">    return 0;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/组件/2016-05-08-左图右文组件/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/组件/2016-05-08-左图右文组件/" itemprop="url">
+                  左图右文css组件
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<ul>
+<li>html</li>
+</ul>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"list-view-lr"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"row"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"view-l"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">alt</span>=<span class="string">""</span> /&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"view-r"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mod"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>less</li>
+</ul>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list-view-lr</span> &#123;</div><div class="line">	<span class="selector-class">.row</span> &#123;</div><div class="line">		<span class="attribute">background</span>: <span class="number">#fff</span>;</div><div class="line">		<span class="selector-class">.view-l</span> &#123;</div><div class="line">			<span class="attribute">position</span>: relative;</div><div class="line">			<span class="attribute">float</span>: left;</div><div class="line">			<span class="attribute">width</span>: <span class="number">100px</span>;</div><div class="line">			<span class="attribute">margin</span>: <span class="number">0</span> -<span class="number">100%</span> <span class="number">0</span> <span class="number">0</span>;</div><div class="line">			<span class="attribute">z-index</span>: <span class="number">2</span>;</div><div class="line">			<span class="selector-class">.thumb</span> &#123;</div><div class="line">				<span class="attribute">width</span>: <span class="number">90%</span>;</div><div class="line">				<span class="attribute">margin</span>: <span class="number">5%</span>;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">		<span class="selector-class">.view-r</span> &#123;</div><div class="line">			<span class="attribute">float</span>: left;</div><div class="line">			<span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">			<span class="selector-class">.mod</span> &#123;</div><div class="line">				<span class="attribute">margin-left</span>: <span class="number">106px</span>;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/js/jquery/2016-05-14-jQuery技术内幕-源码学习笔记01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/js/jquery/2016-05-14-jQuery技术内幕-源码学习笔记01/" itemprop="url">
+                  jQuery技术内幕-源码学习笔记01
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/jQuery/" itemprop="url" rel="index">
+                    <span itemprop="name">jQuery</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span> (<span class="params">window, undefined</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> jQuery = ...</div><div class="line">    <span class="comment">//...</span></div><div class="line">    <span class="built_in">window</span>.jQuery = <span class="built_in">window</span>.$ = jQuery</div><div class="line">&#125; (<span class="built_in">window</span>))</div></pre></td></tr></table></figure>
+<p><strong>为什么自调函数要设置window参数，并传入window对像？</strong></p>
+<blockquote>
+<ul>
+<li><p>可以使window对像变成局部变量，当访问window对像时不用退回顶部作用域， 可以更快的访问window 对像</p>
+</li>
+<li><p>可以在压缩代码时进行优化</p>
+</li>
+</ul>
+</blockquote>
+<p> <strong>为什么自调函数要设置undefined参数，并不传入任何值 ?</strong></p>
+<blockquote>
+<ul>
+<li>可以缩短查找undefined时的作用域链，并可以在压缩代码时优化</li>
+<li>通过这种方式可以确保undefined的值是undefined,因为undefined在部分浏览器是可以被重写的</li>
+</ul>
+</blockquote>
+<p> <strong>构造函数 jQuery()-有7种用法</strong></p>
+<ol>
+<li><p><code>jQuery(selector[,context])</code> 接受一个CSS选择器择达式和可选的选择器上下文，返回一个包含了匹配的<code>DOM</code>元素的jQuery对像</p>
+</li>
+<li><p><code>jQuery(html[,ownerDocument])</code> <code>jQuery(html,props)</code>用提供的 <code>html</code>代码创建 <code>DOM</code> 元素</p>
+</li>
+<li><p><code>jQuery(elment) jQuery(elementArray)</code> 封装 <code>DOM</code> 元素为jQuery对像</p>
+</li>
+<li><p><code>jQuery(object)</code> 封装普通对像为jQuery对像</p>
+</li>
+<li><p><code>jQuery(jQuery object)</code>  接受一个jQuery对像，返回该jQuery对像的拷贝副本</p>
+</li>
+<li><p><code>jQuery(callback)</code> 绑定ready事件监听函数，当DOM结构加载完成时执行</p>
+</li>
+<li><p><code>jQuery()</code> 创建一个空的jQuery对像</p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/2016-05-08-zepto源码学习笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/2016-05-08-zepto源码学习笔记/" itemprop="url">
+                  zepto源码学习
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><code>zepto</code>整体结构</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/js/node/2016-08-01-node.js FS模块之文件夹API详解/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/js/node/2016-08-01-node.js FS模块之文件夹API详解/" itemprop="url">
+                  node.js FS模块之文件夹API详解
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/node/" itemprop="url" rel="index">
+                    <span itemprop="name">node</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="创建文件夹"><a href="#创建文件夹" class="headerlink" title="创建文件夹"></a>创建文件夹</h2><blockquote>
+<ul>
+<li>异步： <code>fs.mkdir(path, [mode], callback)</code> callback 接受一个err参数</li>
+<li>同步： <code>fs.mkdirSync(path, [mode])</code></li>
+</ul>
+</blockquote>
+<p><strong>参数</strong></p>
+<blockquote>
+<ul>
+<li>path 创建的目录路径</li>
+<li>mode 目录权限（读写权限）默认0777</li>
+<li>callback 回调，接受一个err参数</li>
+</ul>
+</blockquote>
+<p><strong>例子</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line">fs.mkdir(<span class="string">'mkdir'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (!err) &#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="string">'创建成功'</span>);</div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<h2 id="删除目录"><a href="#删除目录" class="headerlink" title="删除目录"></a>删除目录</h2><blockquote>
+<ul>
+<li>异步： <code>fs.rmdir(path, [callback(err)])</code></li>
+<li>同步： <code>fs.rmdirSync(path)</code><br><strong>参数</strong></li>
+<li>path 要删除目录的路径</li>
+<li>callback 接受1个参数 (err) ,返回错误信息</li>
+</ul>
+</blockquote>
+<p><strong>异步例子</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fs.rmdir(<span class="string">'./mkdir'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (err) &#123;</div><div class="line">        <span class="built_in">console</span>.log(err)</div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p><strong>同步例子</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">fs.rmdirSync(<span class="string">'./mkdir2'</span>)</div></pre></td></tr></table></figure>
+<h2 id="读取文件夹查看目录下有什么文件和文件夹"><a href="#读取文件夹（查看目录下有什么文件和文件夹）" class="headerlink" title="读取文件夹（查看目录下有什么文件和文件夹）"></a>读取文件夹（查看目录下有什么文件和文件夹）</h2><blockquote>
+<ul>
+<li>异步： <code>fs.readdir(path, [callback(err,files)])</code></li>
+<li>同步： <code>fs.readdirSync(path)</code> 返回文件名称的数组</li>
+</ul>
+</blockquote>
+<p><strong>参数</strong></p>
+<blockquote>
+<ul>
+<li>path 读取的路径</li>
+<li>callback 接受2个参数 (err,files) ,files是目录中所包含的文件名称的数组</li>
+</ul>
+</blockquote>
+<p><strong>异步例子</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fs.readdir(<span class="string">'./'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err, files</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (!err) &#123;</div><div class="line">        <span class="built_in">console</span>.log(files);</div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p><strong>同步例子</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> files = fs.readdirSync(<span class="string">'./'</span>);</div><div class="line"><span class="built_in">console</span>.log(files);</div></pre></td></tr></table></figure>
+<h2 id="获得文件信息"><a href="#获得文件信息" class="headerlink" title="获得文件信息"></a>获得文件信息</h2><blockquote>
+<ul>
+<li>异步：<code>fs.stat(path, [callback(err, stats)])</code></li>
+<li>同步： <code>fs.statSync(path)</code></li>
+</ul>
+</blockquote>
+<h2 id="文件写入操作"><a href="#文件写入操作" class="headerlink" title="文件写入操作"></a>文件写入操作</h2><blockquote>
+<ul>
+<li>异步： <code>fs.writeFile(filename, data, [options], callback)</code></li>
+<li>同步： <code>fs.writeFile(filename, data, [options], callback)</code></li>
+</ul>
+</blockquote>
+<ul>
+<li>往文件里异步写数据，写入的内容可以是字符串，也可以是二进制数据。</li>
+<li><p>如果文件不存在，则创建；如果文件已存在，那么内容会被覆盖</p>
+</li>
+<li><p>@param {String} filename 文件名</p>
+</li>
+<li>@param {String|Buffer} data 要往文件里写的内容，可以是字符串，也可以是二进制数据。当为二进制数据时候，options.encoding 会被忽略</li>
+<li>@param {Object} [options]</li>
+<li>@param {String} options.encoding 编码，默认是utf8</li>
+<li>@param {Number} options.mode=438 模式</li>
+<li>@param {String} options.flag=w 写文件的模式</li>
+<li>@param {Function} callback 回调方法</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/js/2016-05-08-JavaScript-移动端弹层/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/js/2016-05-08-JavaScript-移动端弹层/" itemprop="url">
+                  JavaScript-移动端弹层
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<ul>
+<li>JavaScript</li>
+</ul>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div></pre></td><td class="code"><pre><div class="line">define(<span class="string">'common/dialog'</span>, [], <span class="function"><span class="keyword">function</span> (<span class="params">zepto</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> exports = &#123;&#125;;</div><div class="line"></div><div class="line">    exports.dialog = <span class="function"><span class="keyword">function</span> (<span class="params">options</span>) </span>&#123;</div><div class="line"></div><div class="line">        <span class="keyword">var</span> defaults = &#123;</div><div class="line">            <span class="string">"autoTime"</span>: <span class="string">'2000'</span>, <span class="comment">//当没有 确定和取消按钮的时候，弹出框自动关闭的时间</span></div><div class="line">            <span class="string">"content"</span>: <span class="string">"我是一个弹出框"</span>, <span class="comment">//弹出框里面的内容</span></div><div class="line">            contentPad: <span class="number">20</span>,</div><div class="line">            <span class="string">"height"</span>: <span class="string">'70'</span>,</div><div class="line">            <span class="string">"okBtn"</span>: <span class="literal">true</span>, <span class="comment">//是否显示确定按钮</span></div><div class="line">            <span class="string">"cancelBtn"</span>: <span class="literal">true</span>, <span class="comment">//是否显示取消按钮</span></div><div class="line">            <span class="string">"okBtnText"</span>: <span class="string">"确定"</span>, <span class="comment">//确定按钮的文字</span></div><div class="line">            <span class="string">"cancelBtnText"</span>: <span class="string">"取消"</span>, <span class="comment">//取消按钮的文字</span></div><div class="line">            <span class="string">"lock"</span>: <span class="literal">false</span>, <span class="comment">//是否显示遮罩</span></div><div class="line">            <span class="string">"isclose"</span>: <span class="literal">true</span>, <span class="comment">// 为false时 点击okBtn 不关闭弹层（弹层里有表单时，需要设置成flase，开启表单验证,且要手动删除弹层DOM）</span></div><div class="line">            marksEvent: <span class="literal">false</span>, <span class="comment">// 是否开启遮罩层关闭弹层事件</span></div><div class="line">            <span class="string">"okFn"</span>: <span class="function"><span class="keyword">function</span>(<span class="params">opt</span>) </span>&#123;&#125;, <span class="comment">//点击确定按钮执行的函数</span></div><div class="line">            <span class="string">"cancelFn"</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;&#125;, <span class="comment">//点击取消按钮执行的函数</span></div><div class="line">            <span class="string">"autoFn"</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;&#125;</div><div class="line">        &#125;;</div><div class="line"></div><div class="line">        <span class="keyword">var</span> opt = $.extend(&#123;&#125;, defaults, options);</div><div class="line"></div><div class="line">        <span class="keyword">if</span>($(<span class="string">'.g-dialog-tips'</span>).length &gt; <span class="number">0</span>) &#123;</div><div class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">function</span> <span class="title">closeFn</span> (<span class="params"></span>) </span>&#123;</div><div class="line">            mainEle.remove();</div><div class="line">        &#125;;</div><div class="line"></div><div class="line">        $(<span class="string">'&lt;div class="yb-dialog"&gt;'</span> +</div><div class="line">            <span class="string">'&lt;div class="content-box"&gt;'</span> +</div><div class="line">                <span class="string">'&lt;div class="bg"&gt;&lt;/div&gt;'</span> +</div><div class="line">                <span class="string">'&lt;div class="content"&gt;'</span>+ opt.content +<span class="string">'&lt;/div&gt;'</span> +</div><div class="line">                <span class="string">'&lt;p class="btn-box"&gt;'</span> +</div><div class="line">                    <span class="string">'&lt;a href="javascript:;" class="ok-btn btn"&gt;'</span>+ opt.okBtnText +<span class="string">'&lt;/a&gt;'</span> +</div><div class="line">                    <span class="string">'&lt;span class="line"&gt;&lt;/span&gt;'</span> +</div><div class="line">                    <span class="string">'&lt;a href="javascript:;" class="cancel-btn btn"&gt;'</span> + opt.cancelBtnText + <span class="string">'&lt;/a&gt;'</span> +</div><div class="line">                <span class="string">'&lt;/p&gt;'</span> +</div><div class="line">            <span class="string">'&lt;/div&gt;'</span> +</div><div class="line">            <span class="string">'&lt;div class="marks"&gt;&lt;/div&gt;'</span> +</div><div class="line">        <span class="string">'&lt;/div&gt;'</span>).appendTo(<span class="string">'body'</span>);</div><div class="line"></div><div class="line">        <span class="keyword">var</span> mainEle = $(<span class="string">'.yb-dialog'</span>);</div><div class="line"></div><div class="line">        mainEle.find(<span class="string">'.content-box'</span>).css(&#123;</div><div class="line">            <span class="string">"margin-top"</span>: <span class="string">'-'</span> + <span class="built_in">Math</span>.floor(mainEle.find(<span class="string">'.content-box'</span>).height()/<span class="number">2</span>) + <span class="string">'px'</span></div><div class="line">        &#125;);</div><div class="line">        mainEle.find(<span class="string">'.content'</span>).css(&#123;<span class="attr">padding</span>: opt.contentPad&#125;);</div><div class="line"></div><div class="line">        <span class="comment">// 遮罩层关闭弹层事件</span></div><div class="line">        <span class="keyword">if</span>(opt.marksEvent) &#123;</div><div class="line">            mainEle.find(<span class="string">'.marks'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">                closeFn();</div><div class="line">            &#125;);</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="comment">//判断按钮是否显示</span></div><div class="line">        <span class="keyword">if</span>(!opt.okBtn &amp;&amp; !opt.cancelBtn) &#123;</div><div class="line">            mainEle.find(<span class="string">'.btn-box'</span>).hide();</div><div class="line">            mainEle.find(<span class="string">'.content'</span>).css(&#123;<span class="attr">lineHeight</span>: opt.height + <span class="string">'px'</span>&#125;);</div><div class="line">            setTimeout(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">                closeFn();</div><div class="line">                opt.autoFn();</div><div class="line">            &#125;, opt.autoTime);</div><div class="line">        &#125;</div><div class="line">        <span class="comment">//判读遮罩层是否显示</span></div><div class="line">        <span class="keyword">if</span>(opt.lock) &#123;</div><div class="line">            mainEle.find(<span class="string">'.marks'</span>).show().addClass(<span class="string">'fadeIn animated-4ms'</span>);</div><div class="line">            mainEle.find(<span class="string">'.content-box'</span>).addClass(<span class="string">'bounceIn animated'</span>);</div><div class="line">            setTimeout(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">                mainEle.find(<span class="string">'.marks'</span>).removeClass(<span class="string">'fadeIn animated-4ms'</span>);</div><div class="line">                mainEle.find(<span class="string">'.content-box'</span>).removeClass(<span class="string">'bounceIn animated'</span>);</div><div class="line">            &#125;,<span class="number">400</span>);</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">            mainEle.find(<span class="string">'.marks'</span>).hide();</div><div class="line">            mainEle.find(<span class="string">'.content-box'</span>).addClass(<span class="string">'bounceIn animated'</span>);</div><div class="line">            setTimeout(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">                mainEle.find(<span class="string">'.content-box'</span>).removeClass(<span class="string">'bounceIn animated'</span>);</div><div class="line">            &#125;,<span class="number">600</span>);</div><div class="line">        &#125;</div><div class="line">        <span class="comment">//判读确认按钮显示取消按钮隐藏</span></div><div class="line">        <span class="keyword">if</span>(opt.okBtn &amp;&amp; !opt.cancelBtn) &#123;</div><div class="line">            mainEle.find(<span class="string">'.cancel-btn'</span>).hide();</div><div class="line">            mainEle.find(<span class="string">'.ok-btn'</span>).css(&#123; <span class="attr">width</span>: <span class="string">'100%'</span>&#125;);</div><div class="line">            mainEle.find(<span class="string">'.line'</span>).hide();</div><div class="line">        &#125;</div><div class="line">        <span class="comment">////判读取消按钮显示确认按钮隐藏</span></div><div class="line">        <span class="keyword">if</span>(!opt.okBtn &amp;&amp; opt.cancelBtn) &#123;</div><div class="line">            mainEle.find(<span class="string">'.ok-btn'</span>).hide();</div><div class="line">            mainEle.find(<span class="string">'.cancel-btn'</span>).css(&#123; <span class="attr">width</span>: <span class="string">'100%'</span>&#125;);</div><div class="line">            mainEle.find(<span class="string">'.line'</span>).hide();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        mainEle.find(<span class="string">'.ok-btn'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">            <span class="keyword">if</span>(opt.isclose) &#123;</div><div class="line">                closeFn();</div><div class="line">            &#125;</div><div class="line">            opt.okFn(opt);</div><div class="line">        &#125;);</div><div class="line"></div><div class="line">        mainEle.find(<span class="string">'.cancel-btn'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">            closeFn();</div><div class="line">            opt.cancelFn();</div><div class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">        &#125;)</div><div class="line"></div><div class="line">    &#125;;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> exports;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>less</li>
+</ul>
+</blockquote>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.yb-dialog</span> &#123;</div><div class="line">    <span class="attribute">position</span>: fixed;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">z-index</span>: <span class="number">1000</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</div><div class="line">    <span class="selector-class">.marks</span> &#123;</div><div class="line">        <span class="attribute">display</span>: none;</div><div class="line">        <span class="attribute">position</span>: fixed;</div><div class="line">        <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">        <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">        <span class="attribute">background</span>: <span class="number">#000</span>;</div><div class="line">        <span class="attribute">opacity</span>: <span class="number">0.5</span>;</div><div class="line">        <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">        <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">        <span class="attribute">z-index</span>: <span class="number">99</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="selector-class">.content-box</span> &#123;</div><div class="line">        <span class="attribute">position</span>: absolute;</div><div class="line">        <span class="attribute">left</span>: <span class="number">50%</span>;</div><div class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</div><div class="line">        <span class="attribute">margin</span>: -<span class="number">30%</span> <span class="number">0</span> <span class="number">0</span> -<span class="number">40%</span>;</div><div class="line">        <span class="attribute">border-radius</span>: <span class="number">5px</span>;</div><div class="line">        <span class="attribute">width</span>: <span class="number">80%</span>;</div><div class="line">        <span class="attribute">z-index</span>: <span class="number">999</span>;</div><div class="line">        <span class="attribute">overflow</span>: hidden;</div><div class="line">        <span class="selector-class">.bg</span> &#123;</div><div class="line">            <span class="attribute">position</span>: absolute;</div><div class="line">            <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">            <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">            <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">            <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">            <span class="attribute">background</span>: <span class="number">#fff</span>;</div><div class="line">            <span class="attribute">opacity</span>: <span class="number">1</span>;</div><div class="line">            <span class="attribute">z-index</span>: <span class="number">999</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="selector-class">.content</span> &#123;</div><div class="line">            <span class="attribute">position</span>: relative;</div><div class="line">            <span class="attribute">text-align</span>: center;</div><div class="line">            <span class="attribute">padding</span>: <span class="number">20px</span>;</div><div class="line">            <span class="attribute">z-index</span>:<span class="number">1000</span>;</div><div class="line">            <span class="attribute">line-height</span>: <span class="number">24px</span>;</div><div class="line">            <span class="attribute">color</span>: <span class="number">#323232</span>;</div><div class="line">            <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="selector-class">.btn-box</span> &#123;</div><div class="line">            <span class="attribute">position</span>: relative;</div><div class="line">            <span class="attribute">border-top</span>: <span class="number">1px</span> solid <span class="number">#eee</span>;</div><div class="line">            <span class="attribute">background</span>: none;</div><div class="line">            <span class="attribute">overflow</span>: hidden;</div><div class="line">            <span class="attribute">z-index</span>:<span class="number">1000</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="selector-class">.btn</span> &#123;</div><div class="line">            <span class="attribute">font-size</span>: <span class="number">20px</span>;</div><div class="line">            <span class="attribute">float</span>: left;</div><div class="line">            <span class="attribute">box-sizing</span>: border-box;</div><div class="line">            <span class="attribute">background</span>: none;</div><div class="line">            <span class="attribute">border-radius</span>: <span class="number">0</span>;</div><div class="line">            <span class="attribute">color</span>: <span class="number">#323232</span>;</div><div class="line">            <span class="attribute">width</span>: <span class="number">50%</span>;</div><div class="line">            <span class="attribute">text-align</span>: center;</div><div class="line">            <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">            <span class="attribute">font-weight</span>: normal;</div><div class="line">            <span class="attribute">background</span>: none;</div><div class="line">            <span class="attribute">line-height</span>: <span class="number">50px</span>;</div><div class="line">            <span class="attribute">height</span>: <span class="number">50px</span>;</div><div class="line">			<span class="selector-pseudo">:active</span> &#123;</div><div class="line">				<span class="attribute">background</span>: <span class="number">#eee</span>;</div><div class="line">			&#125;</div><div class="line">        &#125;</div><div class="line">        <span class="selector-class">.btn</span><span class="selector-pseudo">:nth-of-type(1)</span> &#123;</div><div class="line">            <span class="attribute">margin-left</span>: -<span class="number">1px</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="selector-class">.line</span> &#123;</div><div class="line">            <span class="attribute">float</span>: left;</div><div class="line">            <span class="attribute">overflow</span>: hidden;</div><div class="line">            <span class="attribute">background</span>: <span class="number">#eee</span>;</div><div class="line">            <span class="attribute">width</span>: <span class="number">1px</span>;</div><div class="line">            <span class="attribute">height</span>: <span class="number">50px</span>;</div><div class="line">            <span class="attribute">position</span>: relative;</div><div class="line">            <span class="attribute">z-index</span>: <span class="number">1000</span>;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/2016-05-05-test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/2016-05-05-test/" itemprop="url">
+                  zepto源码学习
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><code>zepto</code>整体结构</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/js/2016-05-08-JavaScript-自定义滚动条/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/js/2016-05-08-JavaScript-自定义滚动条/" itemprop="url">
+                  JavaScript-自定义滚动条
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><code>JavaScript</code> 模拟自定义滚动条 <a href="/scroll.html">demo</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span> (<span class="params">w, f</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> Scroll = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.elements = <span class="literal">null</span>;</div><div class="line">        <span class="keyword">this</span>.vary = <span class="number">0</span>; <span class="comment">// 变化值</span></div><div class="line">        <span class="keyword">this</span>.scrollHeight = <span class="literal">null</span>; <span class="comment">// 可滚动的高度</span></div><div class="line">        <span class="keyword">this</span>.scale = <span class="literal">null</span>; <span class="comment">// 比例</span></div><div class="line">        <span class="keyword">this</span>.maxRange = <span class="literal">null</span>; <span class="comment">//</span></div><div class="line">        <span class="keyword">this</span>.defaults = &#123;</div><div class="line">            <span class="attr">scrollMove</span>: <span class="built_in">document</span>.getElementById(<span class="string">'scroll-move'</span>),</div><div class="line">            <span class="attr">scroll</span>: <span class="built_in">document</span>.getElementById(<span class="string">'scroll'</span>),</div><div class="line">            <span class="attr">scrollBarClass</span>: <span class="string">'scrollBarBox'</span></div><div class="line">        &#125;;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    Scroll.prototype = &#123;</div><div class="line">        <span class="attr">constructor</span>: Scroll,</div><div class="line">        <span class="attr">init</span>: <span class="function"><span class="keyword">function</span> (<span class="params">opt</span>) </span>&#123;</div><div class="line"></div><div class="line">            <span class="keyword">for</span>(<span class="keyword">var</span> property <span class="keyword">in</span> opt)&#123;</div><div class="line">                <span class="keyword">this</span>.defaults[property] = opt[property];</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            <span class="keyword">this</span>.scrollHeight = <span class="keyword">this</span>.defaults.scrollMove.scrollHeight - <span class="keyword">this</span>.defaults.scroll.offsetHeight;</div><div class="line">            <span class="keyword">this</span>.elements = <span class="keyword">this</span>.defaults.scroll;</div><div class="line">            <span class="keyword">this</span>.createScrollBarBox(<span class="keyword">this</span>.elements);</div><div class="line">        &#125;,</div><div class="line">        <span class="attr">event</span>: &#123;</div><div class="line">            <span class="attr">addHandler</span>: <span class="function"><span class="keyword">function</span> (<span class="params">elements, type, handler</span>) </span>&#123;</div><div class="line">                <span class="keyword">if</span> (elements.addEventListener) &#123;</div><div class="line">                    <span class="keyword">return</span> elements.addEventListener(type, handler, <span class="literal">false</span>);</div><div class="line">                &#125; <span class="keyword">else</span> &#123;</div><div class="line">                    <span class="keyword">return</span> elements.attachEvent(<span class="string">'on'</span> + type, handler);</div><div class="line">                &#125;;</div><div class="line">            &#125;,</div><div class="line">            <span class="attr">preventDefault</span>: <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</div><div class="line"></div><div class="line">                <span class="keyword">if</span>(ev.preventDefault)&#123;</div><div class="line">                    <span class="keyword">return</span> ev.preventDefault();</div><div class="line">                &#125; <span class="keyword">else</span> &#123;</div><div class="line">                    <span class="keyword">return</span> ev.returnValue = <span class="literal">false</span>;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        &#125;,</div><div class="line">        <span class="attr">createScrollBarBox</span>: <span class="function"><span class="keyword">function</span> (<span class="params">elements</span>) </span>&#123; <span class="comment">//创建滚动条容器</span></div><div class="line">            <span class="comment">//滚动条大小比例</span></div><div class="line">            <span class="keyword">var</span> scrollBarScale = <span class="keyword">this</span>.defaults.scroll.offsetHeight/<span class="keyword">this</span>.defaults.scrollMove.scrollHeight</div><div class="line"></div><div class="line">            <span class="keyword">if</span>(scrollBarScale &gt; <span class="number">1</span>) &#123;</div><div class="line">                scrollBarScale = <span class="number">1</span>;</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            <span class="keyword">var</span> scrollBar = <span class="built_in">document</span>.createElement(<span class="string">'div'</span>);</div><div class="line">            <span class="keyword">var</span> This = <span class="keyword">this</span>;</div><div class="line">            scrollBar.className = <span class="keyword">this</span>.defaults.scrollBarClass;</div><div class="line">            scrollBar.innerHTML = <span class="string">'&lt;div class="scrollBar"&gt;&lt;/div&gt;'</span>;</div><div class="line">            elements.appendChild(scrollBar);</div><div class="line"></div><div class="line">            scrollBar =  scrollBar.getElementsByTagName(<span class="string">'div'</span>)[<span class="number">0</span>];</div><div class="line"></div><div class="line">            scrollBar.style.height = scrollBarScale*scrollBar.parentNode.offsetHeight + <span class="string">'px'</span>;</div><div class="line"></div><div class="line">            <span class="keyword">this</span>.drag(scrollBar);</div><div class="line"></div><div class="line">            <span class="keyword">this</span>.event.addHandler(<span class="keyword">this</span>.elements, <span class="string">'DOMMouseScroll'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</div><div class="line">                <span class="keyword">var</span> ev = ev || <span class="built_in">window</span>.event;</div><div class="line">                This.mouseWheel(This, scrollBar, ev);</div><div class="line">            &#125;)</div><div class="line">            <span class="keyword">this</span>.event.addHandler(<span class="keyword">this</span>.elements, <span class="string">'mousewheel'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</div><div class="line">                <span class="keyword">var</span> ev = ev || <span class="built_in">window</span>.event;</div><div class="line">                This.mouseWheel(This, scrollBar, ev);</div><div class="line">            &#125;)</div><div class="line"></div><div class="line">        &#125;,</div><div class="line">        <span class="attr">mouseWheel</span>: <span class="function"><span class="keyword">function</span> (<span class="params">globalThis, dragEle, ev</span>) </span>&#123;</div><div class="line"></div><div class="line">            <span class="keyword">var</span> bDown = <span class="literal">true</span>;</div><div class="line">            <span class="keyword">this</span>.maxRange = dragEle.parentNode.offsetHeight - dragEle.offsetHeight;</div><div class="line"></div><div class="line">            bDown = ev.wheelDelta ? ev.wheelDelta &lt; <span class="number">0</span> :ev.detail &gt; <span class="number">0</span>;</div><div class="line"></div><div class="line">            <span class="keyword">if</span>(bDown)&#123;</div><div class="line"></div><div class="line">                globalThis.vary += <span class="number">10</span>;</div><div class="line"></div><div class="line">                <span class="keyword">if</span>(globalThis.vary &gt;= <span class="keyword">this</span>.maxRange) &#123;</div><div class="line">                    globalThis.vary = <span class="keyword">this</span>.maxRange;</div><div class="line">                &#125;</div><div class="line"></div><div class="line">            &#125; <span class="keyword">else</span> &#123;</div><div class="line">                globalThis.vary -= <span class="number">10</span>;</div><div class="line"></div><div class="line">                <span class="keyword">if</span>(globalThis.vary &lt;= <span class="number">0</span>) &#123;</div><div class="line">                    globalThis.vary = <span class="number">0</span>;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            dragEle.style.top = globalThis.vary + <span class="string">'px'</span>;</div><div class="line">            <span class="keyword">this</span>.scale = globalThis.vary/(<span class="keyword">this</span>.maxRange);</div><div class="line">            <span class="keyword">this</span>.defaults.scrollMove.style.top = -<span class="keyword">this</span>.scale*<span class="keyword">this</span>.scrollHeight+ <span class="string">'px'</span>;</div><div class="line"></div><div class="line">            globalThis.event.preventDefault(ev);</div><div class="line">        &#125;,</div><div class="line">        <span class="attr">drag</span>: <span class="function"><span class="keyword">function</span> (<span class="params">dragEle</span>) </span>&#123;</div><div class="line"></div><div class="line">            <span class="keyword">var</span> This = <span class="keyword">this</span>;</div><div class="line">            <span class="keyword">this</span>.maxRange = dragEle.parentNode.offsetHeight - dragEle.offsetHeight;</div><div class="line"></div><div class="line">            dragEle.onmousedown = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</div><div class="line">                <span class="keyword">var</span> ev = ev || event;</div><div class="line">                <span class="keyword">var</span> eleThis = <span class="keyword">this</span>;</div><div class="line">                <span class="keyword">var</span> downL = ev.clientX - dragEle.parentNode.offsetLeft;</div><div class="line">                <span class="keyword">var</span> downT = ev.clientY - dragEle.offsetTop;</div><div class="line"></div><div class="line">                <span class="keyword">if</span>(eleThis.setCapture)&#123;</div><div class="line">                    eleThis.setCapture()</div><div class="line">                &#125;</div><div class="line"></div><div class="line">                <span class="built_in">document</span>.onmousemove = <span class="function"><span class="keyword">function</span> (<span class="params">ev</span>) </span>&#123;</div><div class="line">                    <span class="keyword">var</span> ev = ev || event;</div><div class="line"></div><div class="line">                    This.vary = ev.clientY - downT;</div><div class="line"></div><div class="line">                    <span class="keyword">if</span>(This.vary &lt;= <span class="number">0</span>) &#123;</div><div class="line">                        This.vary = <span class="number">0</span>;</div><div class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span>(This.vary &gt;= This.maxRange) &#123;</div><div class="line">                        This.vary = This.maxRange;</div><div class="line">                    &#125;</div><div class="line">                    <span class="comment">//dragEle.style.left = ev.clientX - downL + 'px';</span></div><div class="line">                    dragEle.style.top = This.vary + <span class="string">'px'</span>;</div><div class="line"></div><div class="line">                    This.scale = This.vary/(This.maxRange);</div><div class="line"></div><div class="line">                    This.defaults.scrollMove.style.top = -This.scale*This.scrollHeight + <span class="string">'px'</span>;</div><div class="line"></div><div class="line">                &#125;</div><div class="line"></div><div class="line">                <span class="built_in">document</span>.onmouseup = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">                    <span class="keyword">if</span>(eleThis.releaseCapture)&#123;</div><div class="line">                        eleThis.releaseCapture()</div><div class="line">                    &#125;</div><div class="line"></div><div class="line">                    <span class="built_in">document</span>.onmousemove = <span class="literal">null</span>;</div><div class="line">                    <span class="built_in">document</span>.onmouseup = <span class="literal">null</span>;</div><div class="line">                &#125;</div><div class="line"></div><div class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="built_in">window</span>.scroll = <span class="function"><span class="keyword">function</span> (<span class="params">opt</span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">new</span> Scroll().init(opt);</div><div class="line">    &#125;</div><div class="line">&#125;)(<span class="built_in">window</span>, <span class="literal">undefined</span>)</div></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>css</li>
+</ul>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.scroll</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">980px</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">500px</span>;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">    <span class="attribute">overflow</span>: hidden;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.scroll-move</span> &#123;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.scrollBarBox</span> &#123;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">10px</span>;</div><div class="line">    <span class="attribute">background</span>: red;</div><div class="line">    <span class="attribute">height</span>: <span class="number">500px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.scrollBarBox</span> <span class="selector-class">.scrollBar</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">height</span>:<span class="number">100px</span>;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#333</span>;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>html</li>
+</ul>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"scroll"</span> <span class="attr">id</span>=<span class="string">"scroll2"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"scroll-move"</span> <span class="attr">id</span>=<span class="string">"scroll-move2"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="调用"><a href="#调用" class="headerlink" title="调用"></a>调用</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">scroll(&#123;</div><div class="line">    <span class="attr">scrollMove</span>: <span class="built_in">document</span>.getElementById(<span class="string">'scroll-move2'</span>),</div><div class="line">    <span class="attr">scroll</span>: <span class="built_in">document</span>.getElementById(<span class="string">'scroll2'</span>)</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/19/js/2016-06-04-React-Native-NavigatorIOS组件学习/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/js/2016-06-04-React-Native-NavigatorIOS组件学习/" itemprop="url">
+                  React-Native-NavigatorIOS组件学习
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-19T14:53:13+08:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/React-Native/" itemprop="url" rel="index">
+                    <span itemprop="name">React Native</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>属性</strong></p>
+<blockquote>
+<ul>
+<li>barTintColor : 导航条的背景颜色</li>
+<li>initalRoute : 初始化导航路由。</li>
+<li>itemWrapperStyle : 为每一项定制样式，例如设置每一个页面的背景颜色</li>
+<li>navigationBarHidden : 为true , 隐藏导航栏。</li>
+<li>shadowHidden : 是否隐藏阴影，true／false。</li>
+<li>tintColor : 导航栏上按钮的颜色设置。</li>
+<li>titleTextColor : 导航栏上字体的颜色 。</li>
+<li>translucent : 导航栏是否是半透明的，true／false。</li>
+<li>push(route) : 加载一个新的界面（视图或者路由）并且路由到该界面。</li>
+<li>pop() : 返回到上一个页面。</li>
+<li>popN(n) : 一次性返回N个界面，当n ＝ 1 时，即相当于pop（）方法的效果。</li>
+<li>replace（route）：替换当前的路由。</li>
+<li>replacePrevious(route) : 替换前一个页面的视图并且回退过去。</li>
+<li>resetTo(route) : 取代最顶层的路由并且回退过去。</li>
+<li>popToTop() : 回到最上层视图。</li>
+</ul>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="John Doe" />
+          <p class="site-author-name" itemprop="name">John Doe</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
